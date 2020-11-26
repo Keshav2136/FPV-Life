@@ -29,6 +29,28 @@ footer{
 }
 
 
+/*Full Screen SVG Icon*/
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+
+.lnr-screen {
+  color: #0F52BA;
+  /* We can use "color" for setting the color
+  of the SVG because we set its "fill" to
+  "currentColor" */
+  font-size: 40px;
+  /* We can use "font-size" for changing the size
+  of the SVG because its width and height were
+  set 1em.
+  To get crisp results, use sizes that are
+  a multiple of 20; because Linearicons was
+  designed on a 20 by 20 grid. */
+}
 /* CodePen NavBar */
  h1, h2, h3, h4, h5, h6 {
 	 margin: 0;
@@ -320,7 +342,7 @@ p{
 		  max-width: 1000px;
 		  width: 90%;
 		  margin: 15px auto;
-		  background: #ececec;
+		  background: #fff;
 		  border-radius: 5px;
 		  padding: 20px 0;
 		  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
@@ -432,3 +454,104 @@ p{
 		  font-weight: bold;
 		  pointer-events: initial;
 		}
+
+
+/*Codepen Product Display Cards*/
+
+.container {
+	 padding-top: 20px;
+	 min-height: 100vh;
+	 display: grid;
+	 grid-auto-rows: 400px;
+	 grid-gap: 30px;
+	 grid-template-columns: repeat(3, minmax(200px, 300px));
+	 justify-content: center;
+	 align-items: stretch;
+}
+ @media screen and (max-width: 720px) {
+	 .container {
+		 grid-template-columns: 1fr;
+		 margin: 50px 30px;
+	}
+}
+ .card {
+	 position: relative;
+	 padding: 10px;
+	 background: white;
+	 display: grid;
+	 grid-template-rows: 8fr 1fr 1fr;
+	 box-shadow: 0px 15px 20px 0px rgba(0, 0, 0, 0.057);
+	 transition: 0.2s ease-in;
+}
+ .card .card-content {
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+	 width: 100%;
+}
+ .card .card-content .top-bar {
+	 width: calc(100% - 40px);
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 padding: 20px;
+}
+ .card .card-content .top-bar .float-right {
+	 float: right;
+}
+ .card .card-content .img {
+	 width: 100%;
+	 justify-content: bottom;
+	 align-content: bottom;
+	 text-align: center;
+}
+ .card .card-content .img img {
+	 max-width: 100%;
+	 max-height: 220px;
+}
+ .card .card-description {
+	 padding: 10px;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+	 font-weight: 400;
+	 font-size: 14px;
+	 letter-spacing: 0.1em;
+	 width: calc(100%-20px);
+}
+ .card .card-description .title {
+	 text-transform: uppercase;
+	 text-align: left;
+}
+ .card .card-description .cart {
+	 float: right;
+	 cursor: pointer;
+}
+ .card .card-footer {
+	 text-transform: uppercase;
+	 padding: 0.3em;
+	 border-top: 0.5px solid #ececec;
+	 letter-spacing: 0.1em;
+	 font-size: 11px;
+	 color: white;
+	 justify-items: left;
+	 align-items: center;
+	 display: flex;
+}
+ .card .card-footer .span {
+	 margin: 5px;
+	 width: auto;
+	 background: #dedede;
+	 padding: 4px 7px;
+	 border-radius: 2px;
+	 font-weight: 100;
+	 cursor: pointer;
+}
+ .card .card-footer .span:hover {
+	 background: #aaa;
+}
+ .card:hover {
+	 transition: 0.2s ease-in;
+	 transform: translateY(-10px);
+	 box-shadow: 0px 45px 60px 0px rgba(0, 0, 0, 0.087);
+}

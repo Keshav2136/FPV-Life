@@ -12,6 +12,9 @@
 	<link rel="stylesheet" type="text/css" href="static/index.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+<!--Codepen Product Cards-->
+<link href="https://fonts.googleapis.com/css?family=Kanit:200,400" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
 </head>
 <body>
@@ -23,8 +26,9 @@
 
 
 	<ul class="links">
+		<li><span class="lnr lnr-screen" onclick="openFullscreen();"></span></li>
 		<li><a href="#" id="bold" class="hover-underline-animation">FPV</a></li>
-		<li><a href="#" id="streched" class="hover-underline-animation">Community</a></li>
+		<li><a href="/community" id="streched" class="hover-underline-animation">Community</a></li>
 	</ul>
 
 
@@ -62,6 +66,140 @@
 	<img src="" id="demo-drone">
 </section>
 
+<br>
+
+<!--Codepen Product Display-->
+<div class="container">
+    <div class="card">
+      <div class="card-content">
+        <div class="top-bar">
+          <span>
+            $12.95
+          </span>
+          <span class="float-right lnr lnr-heart"></span>
+        </div>
+        <div class="img">
+          <img src="https://tctechcrunch2011.files.wordpress.com/2014/11/solo2-wireless-red-quarter.jpg?w=738">
+        </div>
+      </div>
+      <div class="card-description">
+        <div class="title">
+          BEATS HEADPHONE
+        </div>
+        <div class="cart">
+          <span class="lnr lnr-cart"></span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="span">
+          RED
+        </div>
+        <div class="span">
+          BEATS
+        </div>
+        <div class="span">
+          HEADPHONE
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="top-bar">
+          <span>
+            $1200.95
+          </span>
+          <span class="float-right lnr lnr-heart"></span>
+        </div>
+        <div class="img">
+          <img src="https://www.bell.ca/Styles/wireless/all_languages/all_regions/catalog_images/large/iPhoneX_spgry-en_lrg.png">
+        </div>
+      </div>
+      <div class="card-description">
+        <div class="title">
+          IPHONE X
+        </div>
+        <div class="cart">
+          <span class="lnr lnr-cart"></span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="span">
+          IPHONE
+        </div>
+        <div class="span">
+          PHONE
+        </div>
+        <div class="span">
+          MOBILE
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="top-bar">
+          <span>
+            $5.95
+          </span>
+          <span class="float-right lnr lnr-heart"></span>
+        </div>
+        <div class="img">
+          <img src="https://i.pinimg.com/736x/05/58/c7/0558c796ee706b5cb289ffb68e3b509c--is-the-best-to-the.jpg">
+        </div>
+      </div>
+      <div class="card-description">
+        <div class="title">
+          Black Shoes
+        </div>
+        <div class="cart">
+          <span class="lnr lnr-cart"></span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="span">
+          SHOES
+        </div>
+        <div class="span">
+          FORMAL
+        </div>
+        <div class="span">
+          LEATHER
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="top-bar">
+          <span>
+            $44.55
+          </span>
+          <span class="float-right lnr lnr-heart"></span>
+        </div>
+        <div class="img">
+          <img src="https://www.grootgadgets.com/wp-content/uploads/2017/03/Canon-70-200mm-Lens-mug-White-replica-groot-gadgets-1-400x400.jpg">
+        </div>
+      </div>
+      <div class="card-description">
+        <div class="title">
+          Camera Lens
+        </div>
+        <div class="cart">
+          <span class="lnr lnr-cart"></span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="span">
+          CAMERA
+        </div>
+        <div class="span">
+          GADGET
+        </div>
+        <div class="span">
+          LENS
+        </div>
+      </div>
+    </div>
+  </div>
+<!--END Codepen Product Display //-->
 <br>
 
 <!--Codepen Product Slider-->
@@ -122,13 +260,42 @@
 
 </section>
 
+
 <!--Jquery--><script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <!--Slick--><script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<!--SVG Embedder--><script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
 
 <!--Color this bg-black-->
 <br>
 <footer>Made with <b>love!</b> by <i>Keshav Sharma</i>.</footer>
 <br>
+
+<!--Full Screen-->
+<script>
+var elem = document.documentElement;
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();
+  } else if (elem.webkitRequestFullscreen) { /* Safari */
+    elem.webkitRequestFullscreen();
+  } else if (elem.msRequestFullscreen) { /* IE11 */
+    elem.msRequestFullscreen();
+  }
+}
+
+function closeFullscreen() {
+  if (document.exitFullscreen) {
+    document.exitFullscreen();
+  } else if (document.webkitExitFullscreen) { /* Safari */
+    document.webkitExitFullscreen();
+  } else if (document.msExitFullscreen) { /* IE11 */
+    document.msExitFullscreen();
+  }
+}
+</script>
+
+<br>
+
 
 <!--Codepen NAVBAR-->
   <script>
