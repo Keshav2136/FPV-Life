@@ -26,7 +26,7 @@
 
 
 	<ul class="links">
-		<li><span class="lnr lnr-screen" onclick="openFullscreen();"></span></li>
+		<li><span class="lnr lnr-frame-expand" onclick="openFullscreen();"></span></li>
 		<li><a href="#" id="bold" class="hover-underline-animation">FPV</a></li>
 		<li><a href="/community" id="streched" class="hover-underline-animation">Community</a></li>
 	</ul>

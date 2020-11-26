@@ -6,7 +6,7 @@
 	 box-sizing: border-box;
 	 transition: 0.2s ease all;
 }
-body{ font-family: 'Roboto', sans-serif; margin: 0; }
+body{ font-family: 'Roboto', sans-serif; margin: 0; background: #f1f1f1; }
 
 section#landingpage{
 	background: moccasin;
