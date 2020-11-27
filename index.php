@@ -62,7 +62,7 @@
 
 <br>
 
-<!--Codepen Product Display-->
+<!--Codepen Product Display Cards-->
 <div class="container">
     <div class="card">
       <div class="card-content">
@@ -192,11 +192,11 @@
       </div>
     </div>
  </div>
-<!--END Codepen Product Display //-->
+<!--END Codepen Product Display Cards //-->
 <br>
 
 <!--Codepen Product Slider-->
-<section class="slider">
+<section class="product-slider">
   <div>
     <img src="https://img.pngio.com/walkera-furious-215-fpv-racing-drone-rtf-with-devo-7-transmitter-drone-racing-png-531_442.png">
     <div class="desc">
@@ -216,43 +216,43 @@
   </div>
 
   <div>
-    <img src="http://baronwatts.com/tuts/swipe/3.png">
+    <img src="https://img.pngio.com/walkera-furious-215-fpv-racing-drone-rtf-with-devo-7-transmitter-drone-racing-png-531_442.png">
     <div class="desc">
-      <h2>BOSE QC35</h2>
+      <h2>RACING FPV Drone</h2>
       <p>$289.99 - $299.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>
   </div>
 
   <div>
-    <img src="http://baronwatts.com/tuts/swipe/4.png">
+    <img src="https://img.pngio.com/arris-x220-220mm-fpv-racing-drone-bnf-drone-racing-png-531_442.png">
     <div class="desc">
-      <h2>BOSE SoundLink II</h2>
+      <h2>High-Speed FPV Drone</h2>
       <p>$299.99 - $329.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>
   </div>
 
   <div>
-    <img src="http://baronwatts.com/tuts/swipe/5.png">
+    <img src="https://img.pngio.com/walkera-furious-215-fpv-racing-drone-rtf-with-devo-7-transmitter-drone-racing-png-531_442.png">
     <div class="desc">
-      <h2>BOSE QC35</h2>
+      <h2>RACING FPV Drone</h2>
       <p>$289.99 - $299.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>
   </div>
 
   <div>
-    <img src="http://baronwatts.com/tuts/swipe/6.png">
+    <img src="https://img.pngio.com/arris-x220-220mm-fpv-racing-drone-bnf-drone-racing-png-531_442.png">
     <div class="desc">
-      <h2>BOSE SoundLink II</h2>
+      <h2>High-Speed FPV Drone</h2>
       <p>$299.99 - $329.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>
   </div>
 
 </section>
-
+<br>
 
 <!--FoxyCart link example -->
 <a href="https://fpvlife.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Add a red Cool Example</a>
@@ -315,10 +315,9 @@ function closeFullscreen() {
 
 
 
-  <script>
-  if (document.location.search.match(/type=embed/gi)) {
-    window.parent.postMessage("resize", "*");
-  }
+<script>
+if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");}
 </script>
 <script src="https://static.codepen.io/assets/common/stopExecutionOnTimeout-157cd5b220a5c80d4ff8e0e70ac069bffd87a61252088146915e8726e5d9f147.js"></script>
 <script id="rendered-js">
