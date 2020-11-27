@@ -22,7 +22,7 @@
 <!--CodePen NavBar-->
   <section class="navbar">
 
-	<div class="logo"><h2 id="logo"><a href="/" style="text-decoration: none;color: snow;font-family: haloween;font-size: 4vw;">FPV Life!</a></h2></div>
+	<div class="logo"><h2 id="logo"><a href="/" id="logo">FPV Life!</a></h2></div>
 
 
 	<ul class="links">
@@ -45,10 +45,13 @@
   </section>
 
 
-<main>
+<main class="showcase">
 	
-	<div class="content section section1">
-        <div class="text1">
+	<div class="content section section1 video-container">
+		<div class="video-container">
+			<video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video>
+		</div>
+        <div class="text1 vidcontent">
         		<h1 id="fullwidth-convered" class="title" style="color: snow;font-size:3rem;">Experience The Thrill Of The Skies</h1>
 				<h2>FPV Life!</h2>
 		</div>
@@ -56,15 +59,6 @@
 	</div>
 
 </main>
-
-
-<section id="landingpage" class="section">
-	<h1 id="fullwidth-convered" class="title" style="font-size:6.8vw;">Occupy The Skies</h1><br>
-      <p class="subtitle">
-        Welcome to <strong>FPV Life!</strong>!
-      </p>
-	<img src="" id="demo-drone">
-</section>
 
 <br>
 
@@ -79,12 +73,12 @@
           <span class="float-right lnr lnr-heart"></span>
         </div>
         <div class="img">
-          <img src="https://tctechcrunch2011.files.wordpress.com/2014/11/solo2-wireless-red-quarter.jpg?w=738">
+          <img src="https://img.pngio.com/walkera-furious-215-fpv-racing-drone-rtf-with-devo-7-transmitter-drone-racing-png-531_442.png">
         </div>
       </div>
       <div class="card-description">
         <div class="title">
-          BEATS HEADPHONE
+          Racing FPV Drone
         </div>
         <div class="cart">
           <span class="lnr lnr-cart"></span>
@@ -95,10 +89,42 @@
           RED
         </div>
         <div class="span">
-          BEATS
+          FPV
         </div>
         <div class="span">
-          HEADPHONE
+          iFlight
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-content">
+        <div class="top-bar">
+          <span>
+            $115.95
+          </span>
+          <span class="float-right lnr lnr-heart"></span>
+        </div>
+        <div class="img">
+          <img src="https://img.pngio.com/arris-x220-220mm-fpv-racing-drone-bnf-drone-racing-png-531_442.png">
+        </div>
+      </div>
+      <div class="card-description">
+        <div class="title">
+          FPV Drone
+        </div>
+        <div class="cart">
+          <span class="lnr lnr-cart"></span>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="span">
+          Racing
+        </div>
+        <div class="span">
+          Drone
+        </div>
+        <div class="span">
+          FPV
         </div>
       </div>
     </div>
@@ -111,58 +137,25 @@
           <span class="float-right lnr lnr-heart"></span>
         </div>
         <div class="img">
-          <img src="https://www.bell.ca/Styles/wireless/all_languages/all_regions/catalog_images/large/iPhoneX_spgry-en_lrg.png">
+          <img src="https://img.pngio.com/walkera-furious-215-fpv-racing-drone-rtf-with-devo-7-transmitter-drone-racing-png-531_442.png">
         </div>
       </div>
       <div class="card-description">
         <div class="title">
-          IPHONE X
-        </div>
+          Fire FPV        </div>
         <div class="cart">
           <span class="lnr lnr-cart"></span>
         </div>
       </div>
       <div class="card-footer">
         <div class="span">
-          IPHONE
+          FPV
         </div>
         <div class="span">
-          PHONE
+          drone
         </div>
         <div class="span">
-          MOBILE
-        </div>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-content">
-        <div class="top-bar">
-          <span>
-            $5.95
-          </span>
-          <span class="float-right lnr lnr-heart"></span>
-        </div>
-        <div class="img">
-          <img src="https://i.pinimg.com/736x/05/58/c7/0558c796ee706b5cb289ffb68e3b509c--is-the-best-to-the.jpg">
-        </div>
-      </div>
-      <div class="card-description">
-        <div class="title">
-          Black Shoes
-        </div>
-        <div class="cart">
-          <span class="lnr lnr-cart"></span>
-        </div>
-      </div>
-      <div class="card-footer">
-        <div class="span">
-          SHOES
-        </div>
-        <div class="span">
-          FORMAL
-        </div>
-        <div class="span">
-          LEATHER
+          red
         </div>
       </div>
     </div>
@@ -175,12 +168,12 @@
           <span class="float-right lnr lnr-heart"></span>
         </div>
         <div class="img">
-          <img src="https://www.grootgadgets.com/wp-content/uploads/2017/03/Canon-70-200mm-Lens-mug-White-replica-groot-gadgets-1-400x400.jpg">
+          <img src="https://img.pngio.com/arris-x220-220mm-fpv-racing-drone-bnf-drone-racing-png-531_442.png">
         </div>
       </div>
       <div class="card-description">
         <div class="title">
-          Camera Lens
+          Green Racer
         </div>
         <div class="cart">
           <span class="lnr lnr-cart"></span>
@@ -188,35 +181,35 @@
       </div>
       <div class="card-footer">
         <div class="span">
-          CAMERA
+          FPV
         </div>
         <div class="span">
-          GADGET
+          drone
         </div>
         <div class="span">
-          LENS
+          green
         </div>
       </div>
     </div>
-  </div>
+ </div>
 <!--END Codepen Product Display //-->
 <br>
 
 <!--Codepen Product Slider-->
 <section class="slider">
   <div>
-    <img src="http://baronwatts.com/tuts/swipe/1.png">
+    <img src="https://img.pngio.com/walkera-furious-215-fpv-racing-drone-rtf-with-devo-7-transmitter-drone-racing-png-531_442.png">
     <div class="desc">
-      <h2>BOSE QC35</h2>
+      <h2>RACING FPV Drone</h2>
       <p>$289.99 - $299.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>
   </div>
 
   <div>
-    <img src="http://baronwatts.com/tuts/swipe/2.png">
+    <img src="https://img.pngio.com/arris-x220-220mm-fpv-racing-drone-bnf-drone-racing-png-531_442.png">
     <div class="desc">
-      <h2>BOSE SoundLink II</h2>
+      <h2>High-Speed FPV Drone</h2>
       <p>$299.99 - $329.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>
@@ -259,6 +252,24 @@
   </div>
 
 </section>
+
+
+<!--FoxyCart link example -->
+<a href="https://fpvlife.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Add a red Cool Example</a>
+<!-- form example -->
+<form action="https://fpvlife.foxycart.com/cart" method="post" accept-charset="utf-8">
+<input type="hidden" name="name" value="Cool Example" />
+<input type="hidden" name="price" value="10" />
+<input type="hidden" name="code" value="sku123" />
+<label class="label_left">Size</label>
+<select name="size">
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
+</select>
+<input type="submit" value="Add a Cool Example" class="submit" />
+</form>
+
 
 
 <!--Jquery--><script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -367,6 +378,11 @@ createSlick();
 $(window).on( 'resize', createSlick );
 
 </script>
+
+<!-- FOXYCART -->
+<script data-cfasync="false" src="https://cdn.foxycart.com/fpvlife/loader.js" async defer></script>
+<!-- /FOXYCART -->
+
 
 </body>
 </html>

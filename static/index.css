@@ -6,14 +6,25 @@
 	 box-sizing: border-box;
 	 transition: 0.2s ease all;
 }
-body{ font-family: 'Roboto', sans-serif; margin: 0; background: #f1f1f1; }
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	background: #f1f1f1;
+}
 
-section#landingpage{
+#logo{
+	text-decoration: none;
+	color: snow;
+	font-family: haloween;
+	font-size: 4vw;
+}
+
+/*section#landingpage{
 	background: moccasin;
     color: #ffc600;
     position: relative;
     top: -2rem;
-}
+}*/
 
 footer{
 	position: relative;
@@ -21,6 +32,11 @@ footer{
 	padding-left: 1rem;
 }
 
+@media screen and (min-width: 700px) {
+#logo{
+	font-size: 4.5vw;
+	}
+}
 
 @media screen and (min-width: 990px) {
 #logo{
@@ -151,7 +167,8 @@ footer{
 	 font-weight: bold;
 	 letter-spacing: 0.5px;
 }
- @media screen and (max-width: 740px) {
+
+@media screen and (max-width: 740px) {
 	 .navbar .right {
 		 height: 0;
 		 overflow: hidden;
@@ -231,10 +248,13 @@ footer{
 		 z-index: 40;
 	}
 
+#logo{
+	font-size: 4.5vw;
+	}
 
 
 /*Codepen Two Column Display*/
-	    .section1{
+	.section1{
         width:100%;
         padding-top:20px;
         display:flex;
@@ -272,10 +292,8 @@ footer{
 /*        margin-top:-20%;*/
     }
 
-
-
 }
-
+/*END*/
 
 /*Menu Link Underline Animation*/
 .hover-underline-animation {
@@ -334,6 +352,48 @@ p{
 .section1 img{
     width:45%;
     margin-left:0;
+    z-index: 2;
+}
+
+
+/*Codepen Landing Page Video*/
+.showcase {
+	height: 100vh;
+	display: flex;
+}
+
+.video-container {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center
+		center/cover;
+}
+
+.video-container video {
+	min-width: 100%;
+	min-height: 100%;
+  position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	object-fit: cover;
+}
+
+.video-container:after {
+	content: '';
+	height: 100%;
+	width: 100%;
+	top: 0;
+	background: rgb(36 88 79 / 5%);
+	position: absolute;
+}
+
+.vidcontent {
+	z-index: 2;
 }
 
 
@@ -364,6 +424,7 @@ p{
 		
 		.slick-slide .desc {
 		  opacity: 0;
+		  margin-top: 2rem;
 		}
 		
 		.slick-slide .desc > * {
