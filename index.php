@@ -2,10 +2,28 @@
 <html>
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Primary Meta Tags -->
+<title>Buy and Sell FPV Drones |  FPV Life!  </title>
+<meta name="title" content="Buy and Sell FPV Drones | FPV Life!  ">
+<meta name="description" content="Experience the thrill of flying high speed drones while chilling with your friends">
 
-	<title>FPV Life</title>
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fpvlife.000webhostapp.com/">
+<meta property="og:title" content="Buy and Sell FPV Drones | FPV Life!  ">
+<meta property="og:description" content="Experience the thrill of flying high speed drones while chilling with your friends">
+<meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://metatags.io/">
+<meta property="twitter:title" content="Buy and Sell FPV Drones | FPV Life!  ">
+<meta property="twitter:description" content="Experience the thrill of flying high speed drones while chilling with your friends">
+<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+
 
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
@@ -378,9 +396,12 @@ $(window).on( 'resize', createSlick );
 
 </script>
 
-<!-- FOXYCART -->
-<script data-cfasync="false" src="https://cdn.foxycart.com/fpvlife/loader.js" async defer></script>
-<!-- /FOXYCART -->
+<!-- FOXYCART -->
+
+<script data-cfasync="false" src="https://cdn.foxycart.com/fpvlife/loader.js" async defer></script>
+
+<!-- /FOXYCART -->
+
 
 
 </body>
