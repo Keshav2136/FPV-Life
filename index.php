@@ -213,58 +213,58 @@
 <!--END Codepen Product Display Cards //-->
 <br>
 
-<!--Codepen Product Slider-->
-<section class="product-slider">
+<!--Codepen Product Swipe Slider-->
+<section class="slider">
   <div>
-    <img src="https://img.pngio.com/walkera-furious-215-fpv-racing-drone-rtf-with-devo-7-transmitter-drone-racing-png-531_442.png">
+    <img src="https://fpvlife.000webhostapp.com/static/dr1.png">
     <div class="desc">
-      <h2>RACING FPV Drone</h2>
+      <h2>Racing Drone</h2>
       <p>$289.99 - $299.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>
   </div>
 
   <div>
-    <img src="https://img.pngio.com/arris-x220-220mm-fpv-racing-drone-bnf-drone-racing-png-531_442.png">
+    <img src="https://fpvlife.000webhostapp.com/static/dr2.jpg">
     <div class="desc">
-      <h2>High-Speed FPV Drone</h2>
+      <h2>FPV Drone</h2>
       <p>$299.99 - $329.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>
   </div>
 
   <div>
-    <img src="https://img.pngio.com/walkera-furious-215-fpv-racing-drone-rtf-with-devo-7-transmitter-drone-racing-png-531_442.png">
+    <img src="https://fpvlife.000webhostapp.com/static/dr2.png">
     <div class="desc">
-      <h2>RACING FPV Drone</h2>
+      <h2>Drone Racer</h2>
+      <p>$289.99 - $299.99</p>
+      <a href="#" class="btn">Add to Cart</a>
+    </div>
+  </div>
+ 
+  <div>
+    <img src="https://fpvlife.000webhostapp.com/static/dr1.png">
+    <div class="desc">
+      <h2>Racing Drone</h2>
       <p>$289.99 - $299.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>
   </div>
 
   <div>
-    <img src="https://img.pngio.com/arris-x220-220mm-fpv-racing-drone-bnf-drone-racing-png-531_442.png">
+    <img src="https://fpvlife.000webhostapp.com/static/dr2.jpg">
     <div class="desc">
-      <h2>High-Speed FPV Drone</h2>
+      <h2>FPV Drone</h2>
       <p>$299.99 - $329.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>
   </div>
 
   <div>
-    <img src="https://img.pngio.com/walkera-furious-215-fpv-racing-drone-rtf-with-devo-7-transmitter-drone-racing-png-531_442.png">
+    <img src="https://fpvlife.000webhostapp.com/static/dr2.png">
     <div class="desc">
-      <h2>RACING FPV Drone</h2>
+      <h2>BOSE QC35</h2>
       <p>$289.99 - $299.99</p>
-      <a href="#" class="btn">Add to Cart</a>
-    </div>
-  </div>
-
-  <div>
-    <img src="https://img.pngio.com/arris-x220-220mm-fpv-racing-drone-bnf-drone-racing-png-531_442.png">
-    <div class="desc">
-      <h2>High-Speed FPV Drone</h2>
-      <p>$299.99 - $329.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>
   </div>

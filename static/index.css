@@ -397,10 +397,19 @@ p{
 }
 
 
-/*Codepen Product Slider*/
-		.product-slider {
-		  max-width: 1000px;
-		  width: 90%;
+/*Codepen Product Swipe Slider*/
+h2,
+		p {
+		  margin: 30px 0 0;
+		  padding: 0;
+		}
+		
+		p {
+		  color: #18c495;
+		}
+		
+		.slider {
+		  max-width: 100%;
 		  margin: 15px auto;
 		  background: #fff;
 		  border-radius: 5px;
@@ -424,7 +433,6 @@ p{
 		
 		.slick-slide .desc {
 		  opacity: 0;
-		  margin-top: 2rem;
 		}
 		
 		.slick-slide .desc > * {
@@ -515,7 +523,7 @@ p{
 		  font-weight: bold;
 		  pointer-events: initial;
 		}
-
+/*//END Codepen Swipe Slider Product Dispaly //*/
 
 /*Codepen Product Display Cards*/
 
