@@ -67,13 +67,13 @@
 	
 	<div class="content section section1 video-container">
 		<div class="video-container">
-			<video src="https://traversymedia.com/downloads/video.mov" autoplay muted loop></video>
+			<video src="static/images/index.mp4" autoplay muted loop></video>
 		</div>
         <div class="text1 vidcontent">
         		<h1 id="fullwidth-convered" class="title" style="color: snow;font-size:3rem;">Experience The Thrill Of The Skies</h1>
 				<h2>FPV Life!</h2>
 		</div>
-		<img src="static/parrot.png" alt="demo drone">
+		<img src="static/images/parrot.png" alt="demo drone">
 	</div>
 
 </main>
@@ -86,7 +86,7 @@
       <div class="card-content">
         <div class="top-bar">
           <span>
-            $12.95
+            $112.95
           </span>
           <span class="float-right lnr lnr-heart"></span>
         </div>
@@ -213,10 +213,11 @@
 <!--END Codepen Product Display Cards //-->
 <br>
 
+
 <!--Codepen Product Swipe Slider-->
 <section class="slider">
   <div>
-    <img src="https://fpvlife.000webhostapp.com/static/dr1.png">
+    <img src="static/dr1.png">
     <div class="desc">
       <h2>Racing Drone</h2>
       <p>$289.99 - $299.99</p>
@@ -225,7 +226,7 @@
   </div>
 
   <div>
-    <img src="https://fpvlife.000webhostapp.com/static/dr2.jpg">
+    <img src="static/dr2.png">
     <div class="desc">
       <h2>FPV Drone</h2>
       <p>$299.99 - $329.99</p>
@@ -234,7 +235,7 @@
   </div>
 
   <div>
-    <img src="https://fpvlife.000webhostapp.com/static/dr2.png">
+    <img src="static/dr3.png">
     <div class="desc">
       <h2>Drone Racer</h2>
       <p>$289.99 - $299.99</p>
@@ -243,7 +244,7 @@
   </div>
  
   <div>
-    <img src="https://fpvlife.000webhostapp.com/static/dr1.png">
+    <img src="static/dr1.png">
     <div class="desc">
       <h2>Racing Drone</h2>
       <p>$289.99 - $299.99</p>
@@ -252,7 +253,7 @@
   </div>
 
   <div>
-    <img src="https://fpvlife.000webhostapp.com/static/dr2.jpg">
+    <img src="static/dr2.png">
     <div class="desc">
       <h2>FPV Drone</h2>
       <p>$299.99 - $329.99</p>
@@ -261,7 +262,7 @@
   </div>
 
   <div>
-    <img src="https://fpvlife.000webhostapp.com/static/dr2.png">
+    <img src="static/dr3.png">
     <div class="desc">
       <h2>BOSE QC35</h2>
       <p>$289.99 - $299.99</p>
@@ -270,6 +271,7 @@
   </div>
 
 </section>
+<!--//END Codepen Product Swiper//-->
 <br>
 
 <!--FoxyCart link example -->
