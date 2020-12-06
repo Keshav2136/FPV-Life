@@ -5,53 +5,43 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Primary Meta Tags -->
-<title>Buy and Sell FPV Drones |  FPV Life!  </title>
-<meta name="title" content="Buy and Sell FPV Drones | FPV Life!  ">
+<title>Buy and Sell FPV Drones |  FPV Life!</title>
+<meta name="title" content="Buy and Sell FPV Drones | FPV Life!">
 <meta name="description" content="Experience the thrill of flying high speed drones while chilling with your friends">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://fpvlife.000webhostapp.com/">
-<meta property="og:title" content="Buy and Sell FPV Drones | FPV Life!  ">
-<meta property="og:description" content="Experience the thrill of flying high speed drones while chilling with your friends">
-<meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://metatags.io/">
-<meta property="twitter:title" content="Buy and Sell FPV Drones | FPV Life!  ">
-<meta property="twitter:description" content="Experience the thrill of flying high speed drones while chilling with your friends">
-<meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
-
 
 
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-	<link rel="stylesheet" type="text/css" href="static/index.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 <!--Codepen Product Cards-->
 <link href="https://fonts.googleapis.com/css?family=Kanit:200,400" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
+<!-- IMPORTANT -->
+  <link rel="stylesheet" type="text/css" href="static/index.css">
+
 </head>
 <body>
 
 <!--CodePen NavBar-->
-  <section class="navbar">
+<section class="navbar">
 
-	<div class="logo"><h2 id="logo"><a href="/" id="logo">FPV Life!</a></h2></div>
+	<div class="logo"><h2 id="logo"><a href="/" id="logo" style="text-decoration: none;
+  color: snow;
+  font-family: haloween;
+  font-size: 4vw;">FPV Life!</a></h2></div>
 
 
 	<ul class="links">
-		<li><span class="lnr lnr-frame-expand" onclick="openFullscreen();"></span></li>
-		<li><a href="#" id="bold" class="hover-underline-animation">FPV</a></li>
+		<li><a href="#" id="bold" class="hover-underline-animation">Store</a></li>
+    <br>
 		<li><a href="https://community.fpvlife.in/" id="streched" class="hover-underline-animation">Community</a></li>
 	</ul>
 
 
 	<div class="right">
-		<button>Dashboard</button>
+		<button>Signup</button>
 	</div>
 
 	<div class="toggle">
@@ -59,8 +49,7 @@
 		<div class="line2"></div>
 	</div>
 
-
-  </section>
+</section>
 
 
 <main class="showcase">
@@ -70,7 +59,7 @@
 			<video src="static/images/index.mp4" autoplay muted loop></video>
 		</div>
         <div class="text1 vidcontent">
-        		<h1 id="fullwidth-convered" class="title" style="color: snow;font-size:3rem;">Experience The Thrill Of The Skies</h1>
+        		<h1 id="fullwidth-convered" class="title" style="color: snow;font-size:3rem;">Experience The Thrill Of The Flying</h1>
 				<h2>FPV Life!</h2>
 		</div>
 		<img src="static/images/parrot.png" alt="demo drone">
@@ -264,7 +253,7 @@
   <div>
     <img src="static/dr3.png">
     <div class="desc">
-      <h2>BOSE QC35</h2>
+      <h2>High Speed Drone</h2>
       <p>$289.99 - $299.99</p>
       <a href="#" class="btn">Add to Cart</a>
     </div>

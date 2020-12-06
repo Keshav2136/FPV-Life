@@ -12,26 +12,6 @@ body{
 	background: #f1f1f1;
 }
 
-#logo{
-	text-decoration: none;
-	color: snow;
-	font-family: haloween;
-	font-size: 4vw;
-}
-
-/*section#landingpage{
-	background: moccasin;
-    color: #ffc600;
-    position: relative;
-    top: -2rem;
-}*/
-
-footer{
-	position: relative;
-	top: 1rem;
-	padding-left: 1rem;
-}
-
 @media screen and (min-width: 700px) {
 #logo{
 	font-size: 4.5vw;
@@ -252,6 +232,12 @@ footer{
 	font-size: 4.5vw;
 	}
 
+/*footer style*/
+footer{
+	position: relative;
+	top: 1rem;
+	padding-left: 1rem;
+}
 
 /*Codepen Two Column Display*/
 	.section1{
