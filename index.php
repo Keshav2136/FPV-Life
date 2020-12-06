@@ -5,11 +5,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Primary Meta Tags -->
-<title>Buy and Sell FPV Drones |  FPV Life!</title>
+<title>Enjoy Flying FPV Drones | FPV Life!</title>
 <meta name="title" content="Buy and Sell FPV Drones | FPV Life!">
 <meta name="description" content="Experience the thrill of flying high speed drones while chilling with your friends">
 
-
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
@@ -27,10 +28,10 @@
 <!--CodePen NavBar-->
 <section class="navbar">
 
-	<div class="logo"><h2 id="logo"><a href="/" id="logo" style="text-decoration: none;
-  color: snow;
+	<div class="logo"><a href="/" id="logo" style="text-decoration: none;
+  color: #fb8500;
   font-family: haloween;
-  font-size: 4vw;">FPV Life!</a></h2></div>
+  font-size: 4vw;">FPV Life!</a></div>
 
 
 	<ul class="links">
@@ -59,8 +60,7 @@
 			<video src="static/images/index.mp4" autoplay muted loop></video>
 		</div>
         <div class="text1 vidcontent">
-        		<h1 id="fullwidth-convered" class="title" style="color: snow;font-size:3rem;">Experience The Thrill Of The Flying</h1>
-				<h2>FPV Life!</h2>
+        		<h1 id="fullwidth-convered" class="title" style="color: snow;font-size:3rem;font-family: 'Titillium Web', sans-serif;"><span class="underline--magical">Experience</span> The Thrill Of The Flying</h1>
 		</div>
 		<img src="static/images/parrot.png" alt="demo drone">
 	</div>
