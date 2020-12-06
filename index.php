@@ -29,7 +29,7 @@
 <section class="navbar">
 
 	<div class="logo"><a href="/" id="logo" style="text-decoration: none;
-  color: #fb8500;
+  color: #ff772c;
   font-family: haloween;
   font-size: 4vw;">FPV Life!</a></div>
 
@@ -60,7 +60,7 @@
 			<video src="static/images/index.mp4" autoplay muted loop></video>
 		</div>
         <div class="text1 vidcontent">
-        		<h1 id="fullwidth-convered" class="title" style="color: snow;font-size:3rem;font-family: 'Titillium Web', sans-serif;"><span class="underline--magical">Experience</span> The Thrill Of The Flying</h1>
+        		<h1 id="fullwidth-convered" class="title" style="color: snow;font-family: 'Titillium Web', sans-serif;"><span class="underline--magical">Experience</span> The Thrill Of Flying</h1>
 		</div>
 		<img src="static/images/parrot.png" alt="demo drone">
 	</div>
@@ -287,7 +287,7 @@
 
 <!--Color this bg-black-->
 <br>
-<footer>Made with <b>love!</b> by <i>Keshav Sharma</i>.</footer>
+<footer>Made with <b>love!</b> by <i>Keshav Sharma</i>.<br><span class="lnr lnr-frame-expand" onclick="openFullscreen();">Open this site in full screen</span></footer>
 <br>
 
 <!--Full Screen-->
