@@ -33,6 +33,9 @@
   font-family: haloween;
   font-size: 4vw;">FPV Life!</a></div>
 
+  <div class="main-nav">
+    <span class="lnr lnr-user" style="position:fixed;right: 5.5rem;top: 1.1rem;"></span>
+  </div>
 
 	<ul class="links">
 		<li><a href="#" id="bold" class="hover-underline-animation">Store</a></li>
@@ -42,7 +45,7 @@
 
 
 	<div class="right main-nav">
-		<button class="cd-signup">Signup</button>
+		<button class="cd-signup">Dashboard</button>
 	</div>
 
 	<div class="toggle">
@@ -286,7 +289,7 @@
 
 <!--Color this bg-black-->
 <br>
-<footer>Made with <b>love!</b> by <i>Keshav Sharma</i>.<br><span class="lnr lnr-frame-expand" onclick="openFullscreen();">Open this site in full screen</span></footer>
+<footer>Made with <b>love!</b> by <i>Keshav Sharma</i>.<br><span class="lnr lnr-frame-expand" onclick="openFullscreen();">Open in full screen</span></footer>
 <br>
 
 <!--CODEPEN SIGNUP MODAL-->
@@ -327,7 +330,7 @@
       </div> <!-- cd-login -->
 
       <div id="cd-signup"> <!-- sign up form -->
-        <form class="cd-form">
+        <form class="cd-form" method="post" action="users/register.php">
           <p class="fieldset">
             <label class="image-replace cd-username" for="signup-username">Username</label>
             <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
