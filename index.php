@@ -22,8 +22,53 @@
 <!-- IMPORTANT -->
   <link rel="stylesheet" type="text/css" href="static/index.css">
 
+
+
+
+<!-- Matomo -->
+<script type="text/javascript">
+  var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://fpvlife.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.src='//cdn.matomo.cloud/fpvlife.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Matomo Code -->
+
+
 </head>
 <body>
+
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '849619159187492',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v9.0'
+    });
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
 
 <!--CodePen NavBar-->
 <section class="navbar">
@@ -48,7 +93,7 @@
 
 
     <div class="right main-nav">
-      <button class="cd-login">Dashboard</button>
+      <button class="cd-login dashboard">Dashboard</button>
     </div>
 
     <div class="toggle flex-item">
@@ -69,7 +114,7 @@
         <div class="text1 vidcontent">
         		<h1 id="fullwidth-convered" class="title" style="color: snow;font-family: 'Titillium Web', sans-serif;"><span class="underline--magical">Experience</span> The Thrill Of Flying</h1>
 		</div>
-		<img src="static/images/parrot.png" alt="demo drone">
+		<img src="img/parrot.png" alt="demo drone">
 	</div>
 
 </main>
@@ -177,7 +222,7 @@
       <div class="card-content">
         <div class="top-bar">
           <span>
-            $44.55
+            $144.55
           </span>
           <span class="float-right lnr lnr-heart"></span>
         </div>
@@ -213,7 +258,7 @@
 <!--Codepen Product Swipe Slider-->
 <section class="slider">
   <div>
-    <img src="static/dr1.png">
+    <img src="img/product_pics/dr1.png">
     <div class="desc">
       <h2>Racing Drone</h2>
       <p>$289.99 - $299.99</p>
@@ -222,7 +267,7 @@
   </div>
 
   <div>
-    <img src="static/dr2.png">
+    <img src="img/product_pics/dr2.png">
     <div class="desc">
       <h2>FPV Drone</h2>
       <p>$299.99 - $329.99</p>
@@ -231,7 +276,7 @@
   </div>
 
   <div>
-    <img src="static/dr3.png">
+    <img src="img/product_pics/dr3.png">
     <div class="desc">
       <h2>Drone Racer</h2>
       <p>$289.99 - $299.99</p>
@@ -240,7 +285,7 @@
   </div>
  
   <div>
-    <img src="static/dr1.png">
+    <img src="img/product_pics/dr1.png">
     <div class="desc">
       <h2>Racing Drone</h2>
       <p>$289.99 - $299.99</p>
@@ -249,7 +294,7 @@
   </div>
 
   <div>
-    <img src="static/dr2.png">
+    <img src="img/product_pics/dr2.png">
     <div class="desc">
       <h2>FPV Drone</h2>
       <p>$299.99 - $329.99</p>
@@ -258,7 +303,7 @@
   </div>
 
   <div>
-    <img src="static/dr3.png">
+    <img src="img/product_pics/dr3.png">
     <div class="desc">
       <h2>High Speed Drone</h2>
       <p>$289.99 - $299.99</p>
@@ -294,14 +339,32 @@
 
 <!--Color this bg-black-->
 <br>
-<footer>Made with <b>love!</b> by <i>Keshav Sharma</i>.<br><span class="lnr lnr-frame-expand" onclick="openFullscreen();">Open in full screen</span></footer>
+<footer>Made with <b>love!</b> by <i>Keshav Sharma</i>.<br><span class="lnr lnr-frame-expand" onclick="openFullscreen();">Open in full screen</span>
+
+<br>
+
+
+<button onclick='FB.AppEvents.logEvent("buttonClicked")'>
+  Click me
+</button>
+
+
+
+<br>
+<input name="file" type="file"
+   class="file-upload" data-cloudinary-field="image_id"
+   data-form-data="{ 'transformation': {'crop':'limit','tags':'samples','width':3000,'height':2000}}"/>
+
+
+
+</footer>
 <br>
 
 <!--CODEPEN SIGNUP MODAL-->
 <div class="cd-user-modal" style="z-index: 100"> <!-- this is the entire modal form, including the background -->
     <div class="cd-user-modal-container"> <!-- this is the container wrapper -->
       <ul class="cd-switcher">
-        <li><a href="#0">Sign in</a></li>
+        <li><a href="#0">Sign In</a></li>
         <li><a href="#0">Register</a></li>
       </ul>
 
@@ -310,14 +373,14 @@
           <p class="fieldset">
             <label class="image-replace cd-email" for="signin-email">E-mail</label>
             <input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
-            <span class="cd-error-message">Error message here!</span>
+            <span class="cd-error-message">Please provide your email</span>
           </p>
 
           <p class="fieldset">
             <label class="image-replace cd-password" for="signin-password">Password</label>
             <input class="full-width has-padding has-border" id="signin-password" type="text"  placeholder="Password">
             <a href="#0" class="hide-password">Hide</a>
-            <span class="cd-error-message">Error message here!</span>
+            <span class="cd-error-message">Oops, these's an error!</span>
           </p>
 
           <p class="fieldset">
@@ -339,20 +402,20 @@
           <p class="fieldset">
             <label class="image-replace cd-username" for="signup-username">Username</label>
             <input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
-            <span class="cd-error-message">Error message here!</span>
+            <span class="cd-error-message">Enter your username!</span>
           </p>
 
           <p class="fieldset">
             <label class="image-replace cd-email" for="signup-email">E-mail</label>
             <input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
-            <span class="cd-error-message">Error message here!</span>
+            <span class="cd-error-message">Type your Email!</span>
           </p>
 
           <p class="fieldset">
             <label class="image-replace cd-password" for="signup-password">Password</label>
             <input class="full-width has-padding has-border" id="signup-password" type="text"  placeholder="Password">
             <a href="#0" class="hide-password">Hide</a>
-            <span class="cd-error-message">Error message here!</span>
+            <span class="cd-error-message">Oops, there's an error!</span>
           </p>
 
           <!--<p class="fieldset">
@@ -661,6 +724,24 @@ $("#inpt_search").on('blur', function () {
     $(this).parent('label').removeClass('active');
 });
 </script>
+
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5fd729bfa8a254155ab316b0/1epg7m5th';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+
 
 </body>
 </html>
