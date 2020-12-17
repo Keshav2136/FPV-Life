@@ -1,0 +1,1047 @@
+window.__INITIAL_STATE__ = {
+		"accessibilityMessage": {
+			"message": ""
+		},
+		"admin": {
+			"users": {
+				"isLoading": false,
+				"items": [],
+				"activeUser": null,
+				"lastPage": null
+			},
+			"topics": {
+				"isLoading": false,
+				"items": [],
+				"activeTaopic": null,
+				"lastPage": null
+			},
+			"invitations": {
+				"isLoading": false,
+				"items": [],
+				"activeUser": null,
+				"lastPage": null
+			},
+			"webhooks": {
+				"isLoading": false,
+				"items": [],
+				"activeWebhook": null,
+				"lastPage": null
+			},
+			"groups": {
+				"isLoading": false,
+				"items": [],
+				"activeGroup": null,
+				"lastPage": null
+			},
+			"domain": {}
+		},
+		"answer": {
+			"questions": {
+				"items": false,
+				"params": {
+					"page": 1
+				},
+				"hasMore": true,
+				"isLoading": false
+			},
+			"votes": {
+				"modalOpen": false,
+				"items": false,
+				"itemsCount": 2
+			},
+			"drafts": {
+				"items": false,
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false
+			},
+			"requests": {
+				"items": false,
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false
+			},
+			"report": {
+				"modal": false,
+				"isPosting": false
+			},
+			"vote": false
+		},
+		"app": {
+			"apps": {
+				"items": false,
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false
+			},
+			"item": null
+		},
+		"browser": {
+			"_responsiveState": true,
+			"lessThan": {
+				"extraSmall": false,
+				"small": false,
+				"medium": false,
+				"large": false,
+				"infinity": false
+			},
+			"greaterThan": {
+				"extraSmall": true,
+				"small": true,
+				"medium": true,
+				"large": true,
+				"infinity": false
+			},
+			"is": {
+				"extraSmall": false,
+				"small": false,
+				"medium": false,
+				"large": false,
+				"infinity": true
+			},
+			"mediaType": "infinity",
+			"orientation": null,
+			"breakpoints": {
+				"extraSmall": 480,
+				"small": 768,
+				"medium": 992,
+				"large": 1200,
+				"infinity": null
+			}
+		},
+		"comment": {
+			"isEditing": false,
+			"report": {
+				"modal": false,
+				"isPosting": false
+			}
+		},
+		"csrfToken": "9km1ye87-X4lyoKVzQaXV-c2JZsBtWTQh77U",
+		"entities": {
+			"answer_requests": {},
+			"answers": {},
+			"apps": {},
+			"comments": {},
+			"events": {},
+			"groups": {},
+			"portals": {},
+			"posts": {},
+			"questions": {
+				"5fcc934782767639b21575a1": {
+					"_id": "5fcc934782767639b21575a1",
+					"shortId": "82YagA",
+					"lang": "",
+					"updatedAt": "2020-12-06T08:16:07.370Z",
+					"createdAt": "2020-12-06T08:16:07.287Z",
+					"slug": "what-s-up-everyone",
+					"title": "What's up everyone?",
+					"publishedAt": "2020-12-06T08:16:07.283Z",
+					"portal": "5fbf515dc2ecc33350133058",
+					"lastAskedAt": "2020-12-06T08:16:07.283Z",
+					"user": "keshav2136",
+					"__v": 0,
+					"lastActionAt": "2020-12-06T08:16:07.338Z",
+					"synced": {
+						"searchFailed": false,
+						"search": true
+					},
+					"lastAction": {
+						"verb": "ask",
+						"user": {
+							"_id": "5fbf515dc2ecc3c638133075",
+							"profile": {
+								"links": {
+									"homepage": "http://www.fpvlife.in",
+									"twitter": "keshav2136",
+									"instagram": "fpvlife.in"
+								},
+								"counts": {
+									"receivedLikes": 0,
+									"replies": 0,
+									"receivedDownloads": 0,
+									"downloads": 0,
+									"fileUploads": 0,
+									"groups": 2,
+									"requests": 0,
+									"edits": 0,
+									"questionsFollowers": 0,
+									"responses": 0,
+									"posts": 0,
+									"questions": 1,
+									"comments": 0,
+									"answersWords": 0,
+									"answersVotes": 0,
+									"answers": 0,
+									"views": 0,
+									"followings": 1,
+									"followers": 0
+								},
+								"score": 12,
+								"verified": true,
+								"badge": {
+									"text": "Leader",
+									"type": "gold"
+								},
+								"description": "<p>Just a fellow geek playing around with drones, somewhere in India.</p>",
+								"title": "Owner",
+								"banner": "https://static.t-cdn.net/5fbf515dc2ecc33350133058/users/5fbf515dc2ecc3c638133075/5fbf515dc2ecc3c638133075_62978.png",
+								"picture": "https://app-us-east-1.t-cdn.net/5fbf515dc2ecc33350133058/users/5fbf515dc2ecc3c638133075/5fbf515dc2ecc3c638133075_40341.png",
+								"website": "",
+								"location": "",
+								"gender": "",
+								"name": "Keshav Sharma",
+								"username": "keshav2136"
+							},
+							"externalId": null,
+							"id": "5fbf515dc2ecc3c638133075"
+						}
+					},
+					"referrers": [],
+					"aliases": [],
+					"rewards": [],
+					"links": [{
+						"_id": "5fcc934782767639b21575a2",
+						"status": "200",
+						"clicks": 0
+					}],
+					"videos": [],
+					"files": [],
+					"images": [],
+					"hasReward": false,
+					"downvotes": [],
+					"upvotes": [],
+					"bookmarks": [],
+					"followers": [],
+					"askers": [],
+					"comments": [],
+					"options": [],
+					"topics": [],
+					"score": 0,
+					"status": "published",
+					"counts": {
+						"bookmarks": 0,
+						"pollVotes": 0,
+						"asks": 1,
+						"downvotes": 0,
+						"upvotes": 0,
+						"edits": 1,
+						"comments": 0,
+						"hiddenAnswers": 0,
+						"answers": 0,
+						"views": 0,
+						"followers": 0
+					},
+					"type": "general",
+					"privacy": "public",
+					"anonymous": false,
+					"verified": false,
+					"locked": false,
+					"id": "5fcc934782767639b21575a1",
+					"url": "/question/5fcc934782767639b21575a1",
+					"api_url": "/questions/5fcc934782767639b21575a1"
+				}
+			},
+			"topics": {
+				"cinematic-shots": {
+					"_id": "5fc8f3734b87a5bc64fc5d4c",
+					"shortId": "gbgpLl",
+					"updatedAt": "2020-12-03T14:17:23.635Z",
+					"createdAt": "2020-12-03T14:17:23.635Z",
+					"slug": "cinematic-shots",
+					"name": "Cinematic Shots",
+					"user": "5fbf515dc2ecc3c638133075",
+					"portal": "5fbf515dc2ecc33350133058",
+					"synced": {
+						"searchFailed": false,
+						"search": true
+					},
+					"counts": {
+						"groups": 0,
+						"children": 0,
+						"edits": 0,
+						"subposts": 0,
+						"posts": 0,
+						"subquestions": 0,
+						"questions": 0,
+						"subanswers": 0,
+						"answers": 0,
+						"views": 0,
+						"followers": 0
+					},
+					"definitions": ["Activity"],
+					"paths": [],
+					"children": [],
+					"aliases": [],
+					"type": "collection",
+					"__v": 0
+				}
+			},
+			"users": {
+				"keshav2136": {
+					"_id": "5fbf515dc2ecc3c638133075",
+					"profile": {
+						"links": {
+							"homepage": "http://www.fpvlife.in",
+							"twitter": "keshav2136",
+							"instagram": "fpvlife.in"
+						},
+						"counts": {
+							"receivedLikes": 0,
+							"replies": 0,
+							"receivedDownloads": 0,
+							"downloads": 0,
+							"fileUploads": 0,
+							"groups": 2,
+							"requests": 0,
+							"edits": 0,
+							"questionsFollowers": 0,
+							"responses": 0,
+							"posts": 0,
+							"questions": 1,
+							"comments": 0,
+							"answersWords": 0,
+							"answersVotes": 0,
+							"answers": 0,
+							"views": 0,
+							"followings": 1,
+							"followers": 0
+						},
+						"score": 12,
+						"verified": true,
+						"badge": {
+							"text": "Leader",
+							"type": "gold"
+						},
+						"description": "<p>Just a fellow geek playing around with drones, somewhere in India.</p>",
+						"title": "Owner",
+						"banner": "https://static.t-cdn.net/5fbf515dc2ecc33350133058/users/5fbf515dc2ecc3c638133075/5fbf515dc2ecc3c638133075_62978.png",
+						"picture": "https://app-us-east-1.t-cdn.net/5fbf515dc2ecc33350133058/users/5fbf515dc2ecc3c638133075/5fbf515dc2ecc3c638133075_40341.png",
+						"website": "",
+						"location": "",
+						"gender": "",
+						"name": "Keshav Sharma",
+						"username": "keshav2136"
+					},
+					"externalId": null,
+					"id": "5fbf515dc2ecc3c638133075"
+				}
+			},
+			"webhooks": {},
+			"feed": {
+				"5fcc934782767639b21575a1": {
+					"_id": "5fcc934782767639b21575a1",
+					"type": "Question",
+					"publishedAt": "2020-12-06T08:16:07.283Z",
+					"rank": "2020-12-06T08:16:07.338Z",
+					"question": "5fcc934782767639b21575a1"
+				},
+				"topics-1": {
+					"_id": "topics-1",
+					"type": "Topics",
+					"topics": ["cinematic-shots"]
+				}
+			}
+		},
+		"event": {
+			"item": null,
+			"questions": {},
+			"answers": {}
+		},
+		"form": {},
+		"group": {
+			"editorModal": false,
+			"pickerModal": false,
+			"feed": {
+				"items": false,
+				"hasMore": true,
+				"isLoading": false,
+				"topic": null,
+				"params": {
+					"page": 1
+				},
+				"moderation": 0
+			},
+			"members": {
+				"items": false,
+				"hasMore": true,
+				"isLoading": false,
+				"topic": null,
+				"params": {}
+			},
+			"stats": {},
+			"selectedGroup": false,
+			"isUploadingImage": false
+		},
+		"home": {
+			"answers": {
+				"items": false,
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false
+			},
+			"contentModal": false,
+			"feed": {
+				"items": ["5fcc934782767639b21575a1", "topics-1"],
+				"params": {
+					"page": 1,
+					"sort": "lastActionAt.desc",
+					"types": ""
+				},
+				"hasMore": true,
+				"isLoading": false,
+				"topic": null,
+				"moderation": 0,
+				"page": 1
+			},
+			"groups": {
+				"items": false,
+				"params": {
+					"page": 1
+				},
+				"hasMore": true,
+				"isLoading": false
+			},
+			"notifications": {
+				"items": false,
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false,
+				"verb": false
+			},
+			"content": {},
+			"searchGlobal": {
+				"results": [],
+				"isLoading": false,
+				"count": 0,
+				"value": ""
+			},
+			"searchPage": {
+				"results": [],
+				"isLoading": false,
+				"value": "",
+				"itemPerPage": 0,
+				"currentPage": 1
+			},
+			"topics": {
+				"items": false,
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false
+			},
+			"comments": {
+				"items": false,
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false
+			},
+			"featured": {},
+			"widget": {
+				"infiniteScroll": true,
+				"limit": null
+			}
+		},
+		"isEmbed": false,
+		"isFetching": false,
+		"loadingBar": {
+			"default": 0
+		},
+		"message": {},
+		"modal": {
+			"isOpen": false,
+			"options": {
+				"title": "",
+				"content": "",
+				"props": {},
+				"actions": [],
+				"type": "alert",
+				"callback": false,
+				"messageId": ""
+			},
+			"upgradeModal": {
+				"isOpen": false,
+				"isLoading": false
+			},
+			"shareModal": false
+		},
+		"portal": {
+			"_id": "5fbf515dc2ecc33350133058",
+			"updatedAt": "2020-12-16T18:30:19.039Z",
+			"createdAt": "2020-11-26T06:55:25.331Z",
+			"name": "FPV Life! 😄 ",
+			"domain": "community.fpvlife.in",
+			"baseUrl": "https://community.fpvlife.in",
+			"__v": 49,
+			"seed": false,
+			"banner": "https://app-us-east-1.t-cdn.net/5fbf515dc2ecc33350133058/portals/banner_93384.png",
+			"favicon": "https://static.t-cdn.net/5fbf515dc2ecc33350133058/portals/favicon_73878.png",
+			"logo": "https://app-us-east-1.t-cdn.net/5fbf515dc2ecc33350133058/portals/logo_65625.png",
+			"email": "keshav.simple.123@gmail.com",
+			"keywords": "Drones, FPV, racing, fun, gaming",
+			"longName": "Community  - FPV Life!",
+			"description": "FPV Life is an online community of local FPV Drone pilots who post their drone shots and discuss their next meetup",
+			"newDomain": "",
+			"sitemap": {
+				"status": "new",
+				"urls": []
+			},
+			"security": {
+				"files": [".jpg", ".png", ".mp4", ".gif"]
+			},
+			"fields": {
+				"user": [],
+				"userString": ""
+			},
+			"apps": [{
+				"_id": "5dc307748c94f94c305dd051",
+				"settings": {
+					"_id": "5d7019090494fcc995fb31c0",
+					"createPostWeight": "2",
+					"commentWeight": "1",
+					"replyPostWeight": "2",
+					"receivedLikeWeight": "2",
+					"getUpvoteAnswerWeight": "3",
+					"createAnswerWeight": "2",
+					"askQuestionWeight": "2",
+					"baseScore": "10",
+					"enabled": true
+				},
+				"slug": "reputation",
+				"app": {
+					"_id": "5d7019090494fcc995fb31c0",
+					"name": "Reputation",
+					"slug": "reputation",
+					"type": "native",
+					"categories": ["Integration"],
+					"picture": "https://tribe.so/assets/images/admin-apps/reputation.png",
+					"counts": {
+						"followers": 0,
+						"installs": 0
+					},
+					"premium": false
+				},
+				"enabled": false
+			}, {
+				"_id": "5e6a879bbd35361a7878a353",
+				"settings": {
+					"chooseGroupWhilePosting": true,
+					"postToCommunityMainFeed": true,
+					"_id": "5cc944743d9228aa7c44d9d0"
+				},
+				"slug": "groups",
+				"app": {
+					"_id": "5cc944743d9228aa7c44d9d0",
+					"name": "Groups",
+					"slug": "groups",
+					"type": "native",
+					"categories": ["Functionality"],
+					"picture": "https://tribe.so/assets/images/appstore/groups.png",
+					"counts": {
+						"followers": 0,
+						"installs": 0
+					},
+					"premium": true
+				},
+				"enabled": false
+			}, {
+				"_id": "5ee3f245d8def93e6701f4af",
+				"settings": {
+					"_id": "5cf4661c3d9228aa7c4562dd",
+					"enabled": true
+				},
+				"slug": "moderation",
+				"app": {
+					"_id": "5cf4661c3d9228aa7c4562dd",
+					"name": "Moderation",
+					"slug": "moderation",
+					"type": "native",
+					"categories": ["Functionality"],
+					"picture": "https://tribe.so/assets/images/admin-apps/moderation.png",
+					"counts": {
+						"followers": 0,
+						"installs": 0
+					},
+					"premium": false
+				},
+				"enabled": false
+			}, {
+				"app": {
+					"_id": "5f3c1a82e7a7acb16d63cad0",
+					"name": "Messages",
+					"slug": "messages",
+					"type": "native",
+					"categories": ["Notification"],
+					"picture": "https://tribe.so/assets/images/appstore/messages.png",
+					"counts": {
+						"followers": 0,
+						"installs": 0
+					},
+					"premium": false
+				},
+				"slug": "messages",
+				"settings": {
+					"enabled": true,
+					"_id": "5f3c1a82e7a7acb16d63cad0"
+				},
+				"_id": "5fc8f2e8fa5eda833fdce2bf",
+				"enabled": false
+			}, {
+				"app": {
+					"_id": "5bff88da3d9228aa7c42da4e",
+					"name": "Translation",
+					"slug": "translation",
+					"type": "native",
+					"categories": ["Functionality"],
+					"picture": "https://tribe.so/assets/images/appstore/translation.png",
+					"counts": {
+						"followers": 0,
+						"installs": 0
+					},
+					"premium": false
+				},
+				"slug": "translation",
+				"settings": {
+					"_id": "5bff88da3d9228aa7c42da4e"
+				},
+				"_id": "5fc8f30c4b87a51342fc5d3c",
+				"enabled": false
+			}],
+			"unlockedApps": [],
+			"announcement": {
+				"title": "Welcome to FPV Life! 😊",
+				"picture": "https://app-us-east-1.t-cdn.net/5fbf515dc2ecc33350133058/portals/announcement_19222.png",
+				"link": "",
+				"enabled": false,
+				"content": "<p><i>This place is currently under construction, once completed you will see many hyper-local drone racing </i>communities😄</p>",
+				"action": "",
+				"layout": "darkImageBackground"
+			},
+			"notificationsDefaults": {
+				"email": {
+					"adminFrequency": "immediately",
+					"groupFrequency": "immediately",
+					"followedUsersFrequency": "daily",
+					"upvotesFrequency": "immediately",
+					"followedPostsFrequency": "immediately",
+					"followedTopicsFrequency": "daily",
+					"mentionsFrequency": "immediately",
+					"topicFollowMethod": "posts",
+					"enabled": true
+				}
+			},
+			"template": {
+				"sidebar": "",
+				"fontFamily": "roboto",
+				"email": {
+					"notification": "user-notification"
+				},
+				"custom": {
+					"enabled": false
+				},
+				"layout": {
+					"columns": 3
+				},
+				"menu": {
+					"background": "#fdfdfd",
+					"border": "",
+					"height": 40,
+					"links": [],
+					"linksString": ""
+				},
+				"footer": {
+					"links": [],
+					"type": "custom",
+					"linksString": ""
+				},
+				"navbar": {
+					"background": "",
+					"border": "",
+					"color": "",
+					"height": null,
+					"links": [],
+					"enabled": false,
+					"linksString": ""
+				},
+				"colors": {
+					"default": "",
+					"link": "",
+					"menuLink": "",
+					"primary": "#096eb8",
+					"secondary": "#5ea6f5"
+				},
+				"theme": "default"
+			},
+			"pinned": [],
+			"featured": {
+				"posts": [],
+				"events": [],
+				"answers": [],
+				"topics": [],
+				"users": [],
+				"questions": []
+			},
+			"coupons": [],
+			"links": {
+				"instagram": "https://www.instagram.com/fpvlife.in/"
+			},
+			"currency": {
+				"conversionRate": 100,
+				"enabled": false
+			},
+			"counts": {
+				"onlineUsers": 1,
+				"emails": 0,
+				"users": 3,
+				"unapprovedQuestions": 0,
+				"unapprovedAnswers": 0,
+				"unanswered": 0,
+				"topics": 4,
+				"questions": 1,
+				"posts": 5,
+				"comments": 0,
+				"answers": 1
+			},
+			"info": {
+				"audience": "",
+				"objective": "",
+				"industry": "",
+				"company": "FPV Life!",
+				"companySize": "",
+				"phone": "",
+				"tools": []
+			},
+			"sections": [],
+			"feed": {
+				"previewLength": 40,
+				"sort": "lastActionAt.desc"
+			},
+			"policies": {
+				"tagging": {
+					"addTopicsIsMandatory": false,
+					"addTopics": true
+				},
+				"topicSuggestion": {
+					"minimum": 3,
+					"status": "meet"
+				},
+				"groupSuggestion": {
+					"minimum": 0,
+					"status": "disabled"
+				},
+				"email": "enabled",
+				"cookieConsent": "enabled",
+				"createTopic": "user",
+				"removeUser": "moderator",
+				"registration": "public",
+				"content": "shareable",
+				"access": "public"
+			},
+			"stage": "inception",
+			"status": "live",
+			"type": "general",
+			"trial": false,
+			"plan": "basic",
+			"topics": [],
+			"contentTypes": [{
+				"_id": "5d124fa93963273fea471a99",
+				"permission": "member",
+				"placeholder": "What did you record today? 😀",
+				"rules": "",
+				"verb": "Send",
+				"emoji": "🤳📷",
+				"description": "Share your YouTube channel or Instagram 😁",
+				"plural": "Drone shots",
+				"singular": "Drone shot",
+				"url": "images",
+				"name": "post",
+				"thread": {
+					"pagination": {
+						"limit": 25,
+						"type": "scroll"
+					},
+					"subthread": true,
+					"sort": "createdAt.asc"
+				},
+				"locations": [],
+				"anonymous": true,
+				"imagesAttachments": true,
+				"filesAttachments": true,
+				"enabled": true,
+				"kind": "simple"
+			}, {
+				"_id": "5d124fa93963273fea471a9b",
+				"permission": "member",
+				"placeholder": "What do you want to discuss?",
+				"rules": "",
+				"verb": "Post",
+				"emoji": "▶️",
+				"description": "Great for ongoing dialogue with others in the community",
+				"plural": "YouTube Channels",
+				"singular": "Share a YouTube video",
+				"url": "discussions",
+				"name": "discussion",
+				"thread": {
+					"pagination": {
+						"limit": 25,
+						"type": "scroll"
+					},
+					"subthread": true,
+					"sort": "createdAt.asc"
+				},
+				"locations": [],
+				"anonymous": false,
+				"imagesAttachments": false,
+				"filesAttachments": false,
+				"enabled": true,
+				"kind": "article"
+			}, {
+				"_id": "5d124fa93963273fea471a9a",
+				"permission": "member",
+				"placeholder": "What's your question?",
+				"rules": "",
+				"verb": "Ask",
+				"emoji": "❓",
+				"description": "Perfect when you want definitive answers on a topic",
+				"plural": "Questions",
+				"singular": "Ask a question 🤔",
+				"url": "questions",
+				"name": "question",
+				"thread": {
+					"pagination": {
+						"limit": 25,
+						"type": "scroll"
+					},
+					"subthread": true,
+					"sort": "createdAt.asc"
+				},
+				"locations": [],
+				"anonymous": true,
+				"imagesAttachments": false,
+				"filesAttachments": false,
+				"enabled": true,
+				"kind": "question"
+			}, {
+				"_id": "5d124fa93963273fea471a98",
+				"permission": "member",
+				"placeholder": "What do you want to share?",
+				"rules": "",
+				"verb": "Publish",
+				"emoji": "📝",
+				"description": "",
+				"plural": "Blogs",
+				"singular": "Blog",
+				"url": "blogs",
+				"name": "article",
+				"thread": {
+					"pagination": {
+						"limit": 25,
+						"type": "scroll"
+					},
+					"subthread": true,
+					"sort": "createdAt.asc"
+				},
+				"locations": [],
+				"anonymous": false,
+				"imagesAttachments": false,
+				"filesAttachments": false,
+				"enabled": false,
+				"kind": "article"
+			}],
+			"locale": "en",
+			"aliases": ["fpvlife.tribe.so"],
+			"whitelabel": false,
+			"synced": {
+				"searchFailed": false,
+				"search": true
+			},
+			"corsWhitelist": [],
+			"id": "5fbf515dc2ecc33350133058",
+			"updateHash": "446d7d707bb58c006f1c47d8959f5489",
+			"rootUrl": ""
+		},
+		"post": {
+			"articleModal": false,
+			"responses": {},
+			"isPosting": false,
+			"isReplying": false,
+			"isEditing": false,
+			"files": {},
+			"images": {},
+			"videos": {},
+			"links": {
+				"history": {},
+				"noPreview": false
+			},
+			"recommendations": {},
+			"isContentEditing": false,
+			"report": {
+				"modal": false,
+				"isPosting": false
+			},
+			"upvotes": {
+				"items": false,
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false,
+				"modal": false
+			}
+		},
+		"question": {
+			"answers": {},
+			"answersList": {
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false
+			},
+			"recommendations": {},
+			"askModal": false,
+			"rewardForm": false,
+			"topicModal": false,
+			"mergeModal": {
+				"modalOpen": false,
+				"item": null,
+				"questions": [],
+				"isLoading": false,
+				"error": {}
+			},
+			"item": null,
+			"isAnswering": false,
+			"isEditing": false,
+			"isPosting": false,
+			"pollEnabled": false,
+			"links": {
+				"history": {},
+				"noPreview": false
+			},
+			"search": {
+				"results": [],
+				"isLoading": false,
+				"value": ""
+			},
+			"revisions": {
+				"modalOpen": false,
+				"items": false
+			},
+			"stats": {},
+			"similars": {
+				"isLoading": false,
+				"items": false
+			},
+			"experts": {},
+			"report": {
+				"modal": false,
+				"isPosting": false
+			},
+			"polls": [{
+				"text": "",
+				"votes": 0,
+				"_id": ""
+			}, {
+				"text": "",
+				"votes": 0,
+				"_id": ""
+			}],
+			"images": {},
+			"files": {},
+			"videos": {}
+		},
+		"routing": {
+			"locationBeforeTransitions": null
+		},
+		"stat": {
+			"views": {},
+			"portal": {}
+		},
+		"topic": {
+			"content": {},
+			"editorModal": false,
+			"pickerModal": false,
+			"experts": {},
+			"feed": {},
+			"isUploadingImage": false,
+			"item": null,
+			"search": {
+				"results": [],
+				"isLoading": false,
+				"value": ""
+			},
+			"selectedTopics": [],
+			"contentPickerModal": false
+		},
+		"user": {
+			"answers": {},
+			"authenticated": false,
+			"authUser": {},
+			"content": {},
+			"errors": [],
+			"expertise": {},
+			"followers": {},
+			"followings": {},
+			"invitation": {
+				"fromName": "",
+				"email": "",
+				"name": ""
+			},
+			"isUploadingImage": false,
+			"isWaiting": false,
+			"item": {},
+			"linkedAccounts": {},
+			"notifications": {
+				"items": false,
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false,
+				"count": 0,
+				"open": false
+			},
+			"profileModal": false,
+			"creditModal": false,
+			"search": {
+				"results": [],
+				"isLoading": false,
+				"value": ""
+			},
+			"topUsers": {
+				"items": {},
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false,
+				"period": "month"
+			},
+			"transactions": {
+				"items": false,
+				"page": 1,
+				"hasMore": true,
+				"isLoading": false
+			},
+			"groups": {},
+			"messages": {
+				"isLoading": false,
+				"count": 0
+			},
+			"billing": {
+				"isLoading": false,
+				"invoices": {
+					"data": [],
+					"start": null,
+					"isFirstPage": false,
+					"hasMore": false,
+					"isLoading": false,
+					"hasPagination": false
+				},
+				"customer": null,
+				"subscription": null,
+				"paymentMethod": null,
+				"upcomingInvoice": null
+			}
+		},
+		"webhook": {
+			"editorModal": false
+		},
+		"page": {
+			"item": null,
+			"items": null
+		},
+		"session": {
+			"locale": "en"
+		}
+	}

@@ -415,7 +415,7 @@ p{
     outline-width: 0px;
     position: absolute;
     width: 90%;
-    margin-left: 20px;
+    padding-left: 20px;
 }
 
 .login-usr {
