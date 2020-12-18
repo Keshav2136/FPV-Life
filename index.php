@@ -316,21 +316,20 @@
 <br>
 
 <!--FoxyCart link example -->
-<a href="https://fpvlife.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Add a red Cool Example</a>
+<a href="https://fpvlife.foxycart.com/cart?name=Cool+Example||63436fe23ad066ea586f61c8f05a40f0df41abb7132c375992a8d98a1ec7600e&price=10||b0c673ae120943ec3e2d1060298287f4cbe234972bdda18b9cc95aa089ecfb9a&color=red||f5fce6effd57080391472b44f6d4bb7365fd895fcd3a37d582e8ac6da30b969d&code=sku123||688d55171279c4e5a7f72a3286ae45d2c1ad3eb284a3c52be385b521d47daaa4">Add a red Cool Example</a>
 <!-- form example -->
 <form action="https://fpvlife.foxycart.com/cart" method="post" accept-charset="utf-8">
-<input type="hidden" name="name" value="Cool Example" />
-<input type="hidden" name="price" value="10" />
-<input type="hidden" name="code" value="sku123" />
+<input type="hidden" name="name||63436fe23ad066ea586f61c8f05a40f0df41abb7132c375992a8d98a1ec7600e" value="Cool Example" />
+<input type="hidden" name="price||b0c673ae120943ec3e2d1060298287f4cbe234972bdda18b9cc95aa089ecfb9a" value="10" />
+<input type="hidden" name="code||688d55171279c4e5a7f72a3286ae45d2c1ad3eb284a3c52be385b521d47daaa4" value="sku123" />
 <label class="label_left">Size</label>
 <select name="size">
-    <option value="small">Small</option>
-    <option value="medium">Medium</option>
-    <option value="large">Large</option>
+    <option value="small||30e8fd0c1d24e43fe8de59e2389c26f4a3552fb6c92a6a61b6d64fb860062814">Small</option>
+    <option value="medium||878ca97f2c487db116549cf8c0b93ff0afbcd852532d5bdc341aa32c2a956b26">Medium</option>
+    <option value="large||4fbf67b5df90db362e863cd389b3fe41bf0b5d66fe41356961d10a0d2fac5f81">Large</option>
 </select>
 <input type="submit" value="Add a Cool Example" class="submit" />
 </form>
-
 
 
 <!--Jquery--><script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
