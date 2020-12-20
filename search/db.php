@@ -1,7 +1,5 @@
 <?php
 
-
-
 //Database connection.
 
 $con = MySQLi_connect(

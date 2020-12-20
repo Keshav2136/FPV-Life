@@ -1,0 +1,242 @@
+/*
+#Author: sasikumar
+#Contact:info@create-dynamic.com
+#Code created by http://www.create-dynamic.com
+#Code basically designed for Form purpose but not limited.This program is free software; you can redistribute it and/or modify it.This program is distributed in the hope that it will be useful without any warranty.
+*/ 
+@charset "utf-8";
+body {
+	font-size: 62.5%;
+}
+ul, ol, li {margin:0;padding:0;list-style:none;}
+h1, h2, h3, h4,h4,h6,pre,input {margin:0px;padding:0px;}
+/* CSS Document */
+.cdynforms h1, .cdynforms h2, .cdynforms h3, .cdynforms h4, .cdynforms h5, .cdynforms h6, .cdynforms pre, .cdynforms blockquote, .cdynforms div, .cdynforms p, .cdynforms fieldset, .cdynforms input, .cdynforms textarea, .cdynforms select {
+	margin:0;
+	padding:0;
+	border:0;
+}
+.cdynforms h1 {
+	font-size:30px;
+}
+.cdynforms h2 {
+	font-size:24px;
+}
+.cdynforms h4 {
+	font-size:18px;
+}
+.cdynforms h6 {
+	font-size:12px;
+}
+.cdynforms a {
+	color:#666666;
+	text-decoration:none;
+}
+.cdynforms input[type="radio"], .cdynforms input[type="checkbox"] {
+	margin:0;
+	padding:0;
+	border:none;
+	border-radius:0;
+}
+.cdynformdiv {
+	width:100%;
+}
+.cdynforms .cdynformheaderdiv {
+	min-height:60px;
+}
+.cdynforms .cdynformelementsdiv {
+	margin-top:10px;
+}
+.cdynforms .cdyninput_elements {
+	margin-bottom:10px;
+	margin-top:2px;
+}
+.cdynforms .cdyninput_elements label {
+	vertical-align:top;
+	text-align:left;
+}
+.cdynforms label {
+	display:inline-block;
+	font-weight:normal;
+	width:22%; /*width:120px;*/
+	margin-bottom:2px;
+	margin-right:2px;
+	vertical-align:top;
+	text-align:left;
+}
+.cdynforms div.label_left label, .cdynforms div.label_left .label {
+	display:inline-block;
+	text-align:left;
+}
+.cdynforms div.label_right label, .cdynforms div.label_right .label {
+	display:inline-block;
+	text-align:right;
+}
+.cdynforms div.label_top label, .cdynforms div.label_top .label {
+	display:block;
+	text-align:left;
+}
+.cdynforms div.label_auto label, .cdynforms div.label_auto .label {
+	display:inline-block;
+}
+.cdynforms div .inputchoices label {
+	display:inline;
+	float:none;
+	vertical-align:middle;
+	font-size:11px;
+}
+.cdynforms div label.labelhint {
+	float:none;
+	display:block;
+	text-align:center;
+}
+.cdynforms .labeltips {
+	font-size:11px;
+	margin-top:-5px;
+	color: #3366CC;
+}
+.cdynforms div.cdyninput_elements .elementbox {
+	display:inline-block;
+	width:75%;
+}
+.cdynforms div.label_top .groupelem_addon {
+	display:inline-block;
+	width:100%;
+}
+.cdynforms div.cdyninput_elements .groupelem_addon {
+	display:inline-block;
+	width:75%;
+}
+.cdynforms div.cdyninput_elements .groupelem_addon .div_addonelem {
+	display:inline-block;
+	width:25%;
+	margin:0 5px 5px 0;
+	padding:1px;
+	float:left;
+}
+.cdynforms div.cdyninput_elements .groupelem_addon > .div_addonelem.width10 {
+	width:10%;
+}
+.cdynforms div.cdyninput_elements .groupelem_addon > .div_addonelem.width15 {
+	width:15%;
+}
+.cdynforms div.cdyninput_elements .groupelem_addon > .div_addonelem.width36 {
+	width:36%;
+}
+.cdynforms div.cdyninput_elements .groupelem_addon > .div_addonelem.width75 {
+	width:75%;
+}
+.cdynforms div.cdyninput_elements .groupelem_addon > .div_addonelem input {
+	width:100%;
+}
+.cdynforms div.cdyninput_elements .groupelem_addon > .div_addonelem select {
+	width:100%;
+}
+.cdynforms div.cdyninput_elements .groupelem_addon label {
+	display:block;
+	font:normal 10px Arial, Helvetica, sans-serif;
+	margin-top:-5px;
+	padding-top:2px;
+	line-height:11px;
+	width:100%;
+}
+.cdynforms div .inputchoices { display:inline-block;}
+.cdynforms div .inputchoices span {
+	display: block;
+	width: 100%;
+	float:left;
+}
+.cdynforms div.choice-1column .inputchoices span {
+	width:100%;
+}
+.cdynforms div.choice-2column .inputchoices span {
+	width:50%;
+}
+.cdynforms div.choice-3column .inputchoices span {
+	width:30%;
+}
+.cdynforms div.choice-4column .inputchoices span {
+	width:25%;
+}
+.cdynforms div.choice-5column .inputchoices span {
+	width:20%;
+}
+.cdynforms div.vsmall input, .cdynforms div.vsmall select {
+	width:20%;
+}
+.cdynforms div.small input, .cdynforms div.small select {
+	width:30%;
+}
+.cdynforms div.medium input, .cdynforms div.medium select {
+	width:65%;
+}
+.cdynforms div.large input, .cdynforms div.large select {
+	width:100%;
+}
+.cdynforms input[type="radio"], .cdynforms input[type="checkbox"] {
+	width:auto;
+}
+.cdynforms input, .cdynforms select {
+	width:20%;
+}
+.cdynforms .width50 {
+	display:block;
+	float:left;
+	width:50%;
+}
+.cdynforms .width33 {
+	display:block;
+	float:left;
+	width:33.3333%;
+}
+.cdynforms .width25 {
+	display:block;
+	float:left;
+	width:25%;
+}
+.cdynforms .cdyninput_elements .captcha_qns {
+	width:20px;
+}
+.cdynforms .cdyninput_elements .captcha_ans {
+	width:40px;
+}
+.cdynforms .cdyninput_elements .captcha_qns, .cdynforms .cdyninput_elements .captcha_ans {
+	text-align:center;
+	font-weight:bold;
+}
+.clear {
+	clear:both;
+}
+.cdynforms .tooltip {
+	display: inline;
+	position: relative;
+}
+.cdynforms .tooltip:hover:after {
+	background: #333;
+	background: rgba(0, 0, 0, .8);
+	border-radius: 5px;
+	bottom: 26px;
+	color: #fff;
+	content: attr(title);
+	left: 20%;
+	padding: 5px 15px;
+	position: absolute;
+	z-index: 98;
+	width: 220px;
+}
+.cdynforms .tooltip:hover:before {
+	border: solid;
+	border-color: #333 transparent;
+	border-width: 6px 6px 0 6px;
+	bottom: 20px;
+	content: "";
+	left: 50%;
+	position: absolute;
+	z-index: 99;
+}
+
+
+#cdynerror>ul { border:1px solid #999999; margin:5px 0;padding: 3px; color: #c7254e; background-color:#FFFFF4; }
+#cdynerror ul li { list-style-type:none;}
+
+#cdynsuccess { color: #3c763d;background-color: #dff0d8;border-color: #d6e9c6; padding:10px; margin:5px 0; }

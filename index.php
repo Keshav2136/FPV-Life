@@ -42,6 +42,16 @@
 <!-- End Matomo Code -->
 
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ELMQ5085J4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ELMQ5085J4');
+</script>
+
 </head>
 <body>
 
@@ -75,16 +85,18 @@
 
   <div class="logo"><a href="/">FPV Life!</a></div>
 
- <div class="flex-container">
-
-    <div class="login-usr cd-signup flex-item">
+    <div class="login-usr cd-login">
       <span class="lnr lnr-user cd-signup"></span>
     </div>
 
-    <label class="search flex-item" for="inpt_search"><input id="inpt_search" type="text">
-      <span class="lnr lnr-magnifier"></span>
-    </label>
-      
+    <div class="search-box">
+        <label class="search" for="inpt_search">
+          <input id="inpt_search" type="text" autocomplete="off" placeholder="Which brand or product do you want?">
+          <span class="lnr lnr-magnifier"></span>
+        </label>
+      <div class="result"></div>
+    </div>
+
     <ul class="links">
       <li><a href="#" class="hover-underline-animation">Store</a></li>
       <br>
@@ -100,8 +112,6 @@
       <div class="line1"></div>
       <div class="line2"></div>
     </div>
-
-  </div>
 
 </section>
 
@@ -316,25 +326,28 @@
 <br>
 
 <!--FoxyCart link example -->
-<a href="https://fpvlife.foxycart.com/cart?name=Cool+Example||63436fe23ad066ea586f61c8f05a40f0df41abb7132c375992a8d98a1ec7600e&price=10||b0c673ae120943ec3e2d1060298287f4cbe234972bdda18b9cc95aa089ecfb9a&color=red||f5fce6effd57080391472b44f6d4bb7365fd895fcd3a37d582e8ac6da30b969d&code=sku123||688d55171279c4e5a7f72a3286ae45d2c1ad3eb284a3c52be385b521d47daaa4">Add a red Cool Example</a>
+<a href="https://fpvlife.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Add a red Cool Example</a>
 <!-- form example -->
 <form action="https://fpvlife.foxycart.com/cart" method="post" accept-charset="utf-8">
-<input type="hidden" name="name||63436fe23ad066ea586f61c8f05a40f0df41abb7132c375992a8d98a1ec7600e" value="Cool Example" />
-<input type="hidden" name="price||b0c673ae120943ec3e2d1060298287f4cbe234972bdda18b9cc95aa089ecfb9a" value="10" />
-<input type="hidden" name="code||688d55171279c4e5a7f72a3286ae45d2c1ad3eb284a3c52be385b521d47daaa4" value="sku123" />
+<input type="hidden" name="name" value="Cool Example" />
+<input type="hidden" name="price" value="10" />
+<input type="hidden" name="code" value="sku123" />
 <label class="label_left">Size</label>
 <select name="size">
-    <option value="small||30e8fd0c1d24e43fe8de59e2389c26f4a3552fb6c92a6a61b6d64fb860062814">Small</option>
-    <option value="medium||878ca97f2c487db116549cf8c0b93ff0afbcd852532d5bdc341aa32c2a956b26">Medium</option>
-    <option value="large||4fbf67b5df90db362e863cd389b3fe41bf0b5d66fe41356961d10a0d2fac5f81">Large</option>
+    <option value="small">Small</option>
+    <option value="medium">Medium</option>
+    <option value="large">Large</option>
 </select>
 <input type="submit" value="Add a Cool Example" class="submit" />
 </form>
 
 
+
 <!--Jquery--><script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <!--Slick--><script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <!--SVG Embedder--><script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+
+<!--For search bar - NavBar--><script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 
 <!--Color this bg-black-->
 <br>
@@ -609,6 +622,32 @@ $('#cody-info').hide();
 <!--CODEPEN SIGNUP MODAL-->
 
 
+<!--Search Box NavBar-->
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.search-box input[type="text"]').on("keyup input", function(){
+        /* Get input value on change */
+        var inputVal = $(this).val();
+        var resultDropdown = $(this).siblings(".result");
+        if(inputVal.length){
+            $.get("search/backend-search.php", {term: inputVal}).done(function(data){
+                // Display the returned data in browser
+                resultDropdown.html(data);
+            });
+        } else{
+            resultDropdown.empty();
+        }
+    });
+    
+    // Set search input value on click of result item
+    $(document).on("click", ".result p", function(){
+        $(this).parents(".search-box").find('input[type="text"]').val($(this).text());
+        $(this).parent(".result").empty();
+    });
+});
+</script>
+
+
 <!--Full Screen-->
 <script>
 var elem = document.documentElement;
@@ -724,6 +763,30 @@ $("#inpt_search").on('blur', function () {
 });
 </script>
 
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBgChOWxEmhtsqOnpPwwUxxVdsV1EONDSw",
+    authDomain: "fpv-life-firebase.firebaseapp.com",
+    projectId: "fpv-life-firebase",
+    storageBucket: "fpv-life-firebase.appspot.com",
+    messagingSenderId: "1016142291834",
+    appId: "1:1016142291834:web:d996be2c2d9426fafbecc3",
+    measurementId: "G-5QRS16VFLT"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
 
 
 <!--Start of Tawk.to Script-->

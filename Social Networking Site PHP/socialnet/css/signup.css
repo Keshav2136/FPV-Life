@@ -1,0 +1,140 @@
+body {
+background-image: url('../image/b.png');
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+
+#container {
+width:1150px;
+margin:auto;
+}
+
+#container a {
+text-decoration:none;
+}
+
+#container a:hover {
+color:#ff0000;
+}
+
+.sign-in-form {
+width:1150px;
+margin:auto;
+}
+
+.sign-in-form h1 {
+color:#73cfff;
+text-shadow:2px 2px 2px #000000;
+margin:auto;
+}
+
+.sign-in-form h2 {
+color:#73cfff;
+text-shadow:2px 2px 2px #000000;
+margin-left:120px;
+}
+
+.sign-in-form b {
+color:#000000;
+margin-left:780px;
+}
+
+.sign-in-form strong {
+margin-left:210px;
+}
+
+.sign-in-form  hr{
+width:410px;
+float:left;
+}
+
+.sign-in-form label {
+color:#000000;
+font-size:19px;
+font-weight:bold;
+}
+
+.form-1 {
+width:300px;
+text-indent:5px;
+height:25px;
+font-size:19px;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+}
+
+.form-2 {
+width:60px;
+text-indent:5px;
+height:25px;
+font-size:19px;
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+-o-border-radius:5px;
+}
+
+.btn-sign-in {
+color:#000000;
+font-size:19px;
+width:200px;
+line-height:30px;
+background-color:#ffffff;
+border:2px solid #0bacff;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+-o-border-radius:100px;
+margin-left:210px;
+}
+
+.btn-sign-in:hover {
+color:#ffffff;
+background-color:#0bacff;
+border:2px solid #0bacff;
+}
+
+.btn-sign-up {
+color:#ffffff;
+font-size:19px;
+width:100px;
+line-height:30px;
+background-color:#0bacff;
+border:2px solid #0bacff;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+-o-border-radius:100px;
+}
+
+.btn-sign-up:hover {
+color:#ffffff;
+font-size:19px;
+width:100px;
+line-height:30px;
+background-color:#0488cd;
+border:2px solid #0488cd;
+border-radius:100px;
+-webkit-border-radius:100px;
+-moz-border-radius:100px;
+-o-border-radius:100px;
+}
+
+.sign-up-form-1 {
+width:700px;
+background-color:#F4F4F4;
+margin:auto;
+}
+
+.sign-up-form-1 table {
+width:100%;
+background-color:#F4F4F4;
+margin:auto;
+}
+
+.sign-up-form-1 legend {
+font-size:30px;
+font-weight:bold;
+}

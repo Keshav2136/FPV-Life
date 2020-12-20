@@ -69,7 +69,7 @@ $(document).ready(function(){
 </head>
 <body>
     <div class="search-box">
-        <input type="text" autocomplete="off" placeholder="Which brand or product do you want?" />
+        <input type="text" autocomplete="off" placeholder="Which brand or product do you want?"/>
         <div class="result"></div>
     </div>
 </body>

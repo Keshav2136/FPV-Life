@@ -9,6 +9,41 @@ body {
 	background: #f1f1f1;
 }
 
+/* Formatting search box */
+.search-box{
+        width: 300px;
+        position: relative;
+        display: inline-block;
+        font-size: 14px;
+    }
+/*.search-box input[type="text"]{
+        height: 32px;
+        padding: 5px 10px;
+        border: 1px solid #CCCCCC;
+        font-size: 14px;
+    }*/
+.result{
+        position: absolute;        
+        z-index: 999;
+        top: 100%;
+        left: 0;
+    }
+.search-box input[type="text"], .result{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    /* Formatting result items */
+.result p{
+        margin: 0;
+        padding: 7px 10px;
+        border: 1px solid #CCCCCC;
+        border-top: none;
+        cursor: pointer;
+}
+.result p:hover{
+        background: #f2f2f2;
+}
+
 .lnr-user {
 	font-weight: 700;
 }
@@ -24,12 +59,28 @@ label.search.flex-item:active:hover {
 .navbar{
 	background: transparent;
 	}
+.login-usr{
+	position: absolute;
+	right:25rem;
+	}
+.search{
+	position: absolute;
+	right:30rem;
+	}
 }
 
 @media screen and (min-width: 990px) {
 .logo{
 	margin-top: 1rem;
 	}
+}
+
+@media screen and (min-width: 990px) {
+.login-usr {
+	position: absolute;
+    right: 5.8rem;
+    top: 1rem;
+}
 }
 
 .logo > a {
@@ -416,12 +467,6 @@ p{
     position: absolute;
     width: 90%;
     padding-left: 20px;
-}
-
-.login-usr {
-	position: absolute;
-    right: 5.8rem;
-    top: 1rem;
 }
 
 /*Codepen Landing Page Video*/
