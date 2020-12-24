@@ -7,13 +7,13 @@
 <!-- Primary Meta Tags -->
 <title>Enjoy Flying FPV Drones | FPV Life!</title>
 <meta name="title" content="Buy and Sell FPV Drones | FPV Life!">
-<meta name="description" content="Experience the thrill of flying high speed drones while chilling with your friends">
+<meta name="description" content="Experience the thrill of flying racing drones while chilling with your friends">
+<meta name="theme-color" content="#ffad00">
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@900&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 <!--Codepen Product Cards-->
 <link href="https://fonts.googleapis.com/css?family=Kanit:200,400" rel="stylesheet">
@@ -85,18 +85,6 @@
 
   <div class="logo"><a href="/">FPV Life!</a></div>
 
-    <div class="login-usr cd-login">
-      <span class="lnr lnr-user cd-signup"></span>
-    </div>
-
-    <div class="search-box">
-        <label class="search" for="inpt_search">
-          <input id="inpt_search" type="text" autocomplete="off" placeholder="Which brand or product do you want?">
-          <span class="lnr lnr-magnifier"></span>
-        </label>
-      <div class="result"></div>
-    </div>
-
     <ul class="links">
       <li><a href="#" class="hover-underline-animation">Store</a></li>
       <br>
@@ -105,7 +93,7 @@
 
 
     <div class="right main-nav">
-      <button class="cd-login dashboard">Dashboard</button>
+      <button class="cd-login dashboard"><a href="http://social.fpvlife.in/" style="color:#fff;">Signup</a></button>
     </div>
 
     <div class="toggle flex-item">
@@ -119,12 +107,12 @@
 	
 	<div class="content section section1 video-container">
 		<div class="video-container">
-			<video src="static/images/index.mp4" autoplay muted loop></video>
+			<video src="media/shot.mp4" autoplay muted loop></video>
 		</div>
         <div class="text1 vidcontent">
         		<h1 id="fullwidth-convered" class="title" style="color: snow;font-family: 'Titillium Web', sans-serif;"><span class="underline--magical">Experience</span> The Thrill Of Flying</h1>
 		</div>
-		<img src="img/parrot.png" alt="demo drone">
+		<img src="media/parrot.png" alt="demo drone">
 	</div>
 
 </main>
@@ -268,7 +256,7 @@
 <!--Codepen Product Swipe Slider-->
 <section class="slider">
   <div>
-    <img src="img/product_pics/dr1.png">
+    <img src="media/product_pics/dr1.png">
     <div class="desc">
       <h2>Racing Drone</h2>
       <p>$289.99 - $299.99</p>
@@ -277,7 +265,7 @@
   </div>
 
   <div>
-    <img src="img/product_pics/dr2.png">
+    <img src="media/product_pics/dr2.png">
     <div class="desc">
       <h2>FPV Drone</h2>
       <p>$299.99 - $329.99</p>
@@ -286,7 +274,7 @@
   </div>
 
   <div>
-    <img src="img/product_pics/dr3.png">
+    <img src="media/product_pics/dr3.png">
     <div class="desc">
       <h2>Drone Racer</h2>
       <p>$289.99 - $299.99</p>
@@ -295,7 +283,7 @@
   </div>
  
   <div>
-    <img src="img/product_pics/dr1.png">
+    <img src="media/product_pics/dr1.png">
     <div class="desc">
       <h2>Racing Drone</h2>
       <p>$289.99 - $299.99</p>
@@ -304,7 +292,7 @@
   </div>
 
   <div>
-    <img src="img/product_pics/dr2.png">
+    <img src="media/product_pics/dr2.png">
     <div class="desc">
       <h2>FPV Drone</h2>
       <p>$299.99 - $329.99</p>
@@ -313,7 +301,7 @@
   </div>
 
   <div>
-    <img src="img/product_pics/dr3.png">
+    <img src="media/product_pics/dr3.png">
     <div class="desc">
       <h2>High Speed Drone</h2>
       <p>$289.99 - $299.99</p>
@@ -324,6 +312,27 @@
 </section>
 <!--//END Codepen Product Swiper//-->
 <br>
+
+<!--Jquery--><script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<!--Slick--><script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+<!--SVG Embedder--><script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
+
+<!--For search bar - NavBar
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+-->
+
+<!--Color this bg-black-->
+<br>
+<footer>Made with <b>love!</b> by <i>Keshav Sharma</i>.<br><span class="lnr lnr-frame-expand" onclick="openFullscreen();">Open in full screen</span>
+
+<br>
+
+
+<button onclick='FB.AppEvents.logEvent("buttonClicked")'>
+  Click me
+</button>
+
+
 
 <!--FoxyCart link example -->
 <a href="https://fpvlife.foxycart.com/cart?name=Cool%20Example&price=10&color=red&code=sku123">Add a red Cool Example</a>
@@ -340,33 +349,6 @@
 </select>
 <input type="submit" value="Add a Cool Example" class="submit" />
 </form>
-
-
-
-<!--Jquery--><script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<!--Slick--><script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-<!--SVG Embedder--><script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
-
-<!--For search bar - NavBar--><script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-
-<!--Color this bg-black-->
-<br>
-<footer>Made with <b>love!</b> by <i>Keshav Sharma</i>.<br><span class="lnr lnr-frame-expand" onclick="openFullscreen();">Open in full screen</span>
-
-<br>
-
-
-<button onclick='FB.AppEvents.logEvent("buttonClicked")'>
-  Click me
-</button>
-
-
-
-<br>
-<input name="file" type="file"
-   class="file-upload" data-cloudinary-field="image_id"
-   data-form-data="{ 'transformation': {'crop':'limit','tags':'samples','width':3000,'height':2000}}"/>
-
 
 
 </footer>
@@ -630,7 +612,7 @@ $(document).ready(function(){
         var inputVal = $(this).val();
         var resultDropdown = $(this).siblings(".result");
         if(inputVal.length){
-            $.get("search/backend-search.php", {term: inputVal}).done(function(data){
+            $.get("/search/backend-search.php", {term: inputVal}).done(function(data){
                 // Display the returned data in browser
                 resultDropdown.html(data);
             });
