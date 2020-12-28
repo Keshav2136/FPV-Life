@@ -1,0 +1,18 @@
+<svg version="1.1" id="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 131.6 151.9" style="" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#D00040;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
+.atlas_0{stroke-dasharray:94 96;stroke-dashoffset:95;animation:atlas_draw 2500ms ease-in-out 0ms forwards;}.atlas_1{stroke-dasharray:60 62;stroke-dashoffset:61;animation:atlas_draw 2500ms ease-in-out 136ms forwards;}.atlas_2{stroke-dasharray:93 95;stroke-dashoffset:94;animation:atlas_draw 2500ms ease-in-out 272ms forwards;}.atlas_3{stroke-dasharray:60 62;stroke-dashoffset:61;animation:atlas_draw 2500ms ease-in-out 409ms forwards;}.atlas_4{stroke-dasharray:94 96;stroke-dashoffset:95;animation:atlas_draw 2500ms ease-in-out 545ms forwards;}.atlas_5{stroke-dasharray:60 62;stroke-dashoffset:61;animation:atlas_draw 2500ms ease-in-out 681ms forwards;}.atlas_6{stroke-dasharray:94 96;stroke-dashoffset:95;animation:atlas_draw 2500ms ease-in-out 818ms forwards;}.atlas_7{stroke-dasharray:61 63;stroke-dashoffset:62;animation:atlas_draw 2500ms ease-in-out 954ms forwards;}.atlas_8{stroke-dasharray:94 96;stroke-dashoffset:95;animation:atlas_draw 2500ms ease-in-out 1090ms forwards;}.atlas_9{stroke-dasharray:60 62;stroke-dashoffset:61;animation:atlas_draw 2500ms ease-in-out 1227ms forwards;}.atlas_10{stroke-dasharray:94 96;stroke-dashoffset:95;animation:atlas_draw 2500ms ease-in-out 1363ms forwards;}.atlas_11{stroke-dasharray:60 62;stroke-dashoffset:61;animation:atlas_draw 2500ms ease-in-out 1500ms forwards;}@keyframes atlas_draw{100%{stroke-dashoffset:0;}}@keyframes atlas_fade{0%{stroke-opacity:1;}95.1219512195122%{stroke-opacity:1;}100%{stroke-opacity:0;}}</style>
+<title>Atlas</title>
+<path class="st0 atlas_0" d="M83.3,45.8L118.2,45.8L88.7,96.5"></path>
+<path class="st0 atlas_1" d="M88.9,55.5L101.1,55.5L77.3,96.5"></path>
+<path class="st0 atlas_2" d="M100.6,76.1L118.1,106.4L60.1,106.3"></path>
+<path class="st0 atlas_3" d="M94.9,85.8L101.1,96.5L54.4,96.4"></path>
+<path class="st0 atlas_4" d="M83.6,106.3L66.1,136.6L36.8,85.4"></path>
+<path class="st0 atlas_5" d="M72.3,106.3L66.2,116.9L42.6,75.8"></path>
+<path class="st0 atlas_6" d="M48.6,106.2L13.3,106.2L42.7,55.5"></path>
+<path class="st0 atlas_7" d="M43.1,96.5L30.3,96.5L54.1,55.5"></path>
+<path class="st0 atlas_8" d="M30.9,75.8L13.5,45.6L71.9,45.7"></path>
+<path class="st0 atlas_9" d="M36.6,66.1L30.5,55.5L77.5,55.6"></path>
+<path class="st0 atlas_10" d="M48.3,45.7L65.8,15.4L95,66.2"></path>
+<path class="st0 atlas_11" d="M59.6,45.7L65.7,35L89.3,76.1"></path>
+</svg>

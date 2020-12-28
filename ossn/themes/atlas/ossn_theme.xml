@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme xmlns="http://www.opensource-socialnetwork.org/theme/v/3.0">
+    <name>Atlas</name>
+    <id>atlas</id>
+    <author>Atlas</author>
+    <author_url>https://m.me/dealer.slp</author_url>	
+    <description>A black responsive theme for Pro Hacks</description>
+    <license>Open Source License</license>
+    <license_url>https://www.opensource-socialnetwork.org/licence</license_url>
+    <version>2.5</version>
+	<requires>
+		<type>ossn_version</type>
+		<version>5.5</version>
+	</requires>
+</theme>
