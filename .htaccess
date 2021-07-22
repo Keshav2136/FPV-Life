@@ -1,4 +1,22 @@
+#==============================================================
+#	DISABLE INDEX FOLDER
+#==============================================================
+	Options -Indexes
+#--------------------------------------------------------------#
 
-# HTID:16055797: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
-php_value display_errors 1
-# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:16055797:
+#==============================================================
+#	CODEIGNITER HTACCESS
+#==============================================================
+	RewriteEngine on
+	RewriteCond %{REQUEST_FILENAME} !-f
+	RewriteCond %{REQUEST_FILENAME} !-d
+	RewriteRule .* index.php/ [PT,L]
+#--------------------------------------------------------------#
+
+#==============================================================
+#	CODEIGNITER ENVIRONMENT
+#==============================================================
+	<IfModule mod_env.c>
+		SetEnv CI_ENV production
+	</IfModule>
+#--------------------------------------------------------------#
